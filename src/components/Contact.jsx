@@ -46,7 +46,7 @@ const Contact = () => {
                         <input type="text" name='user_email' required className='border border-gray-400 rounded-lg p-1 my-2 w-11/12 outline-none' placeholder='Your Email' />
                         <textarea name="message" maxLength={750} className='border border-gray-400 rounded-lg p-1 my-2 w-11/12 h-32 outline-none resize-none' placeholder='Your Message (max 750)' />
                         <br />
-                        <input type="submit" value="Send" className='rounded-lg bg-cyan-400 px-1 py-2 font-bold lg:text-xl lg:px-2 lg:py-2 cursor-pointer shadow-md shadow-cyan-200 hover:shadow-cyan-400 duration-200 ease-in-out'/>
+                        <input type="submit" value="Send" className='rounded-lg bg-nevBlue px-1 py-2 font-bold lg:text-xl lg:px-2 lg:py-2 cursor-pointer duration-200 ease-in-out'/>
                     </form>
                     <p id='status-text' className='font-bold my-2'></p>
             </div>

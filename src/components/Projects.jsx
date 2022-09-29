@@ -19,8 +19,8 @@ const Projects = () => {
                     <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='text-nevBlue underline font-bold' target="_blank">Jan Lampert's</a> and my NFT Collections. You can find the Link down here 👇.</p>
                 </div>
                 <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
-                    <button className='mx-auto rounded-xl bg-cyan-400 hover:shadow-lg hover:shadow-cyan-600 duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
-                    <button className='mx-auto rounded-xl bg-pink-400 hover:shadow-lg hover:shadow-pink-600 duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
                 </div>
             </div>
             <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
@@ -32,8 +32,8 @@ const Projects = () => {
                     <p className='py-2'>Since I have a german gaming YouTube Channel and my old Bruhpage was made with Google Sites, I wanted to remake the whole Website. This was also my first <a href="https://tailwindcss.com" target='_blank' rel="noreferrer" className='text-nevBlue underline font-bold'>Tailwind CSS</a> Project. It is also planned to rework this Website with React!</p>
                 </div>
                 <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
-                    <button className='mx-auto rounded-xl bg-cyan-400 hover:shadow-lg hover:shadow-cyan-600 duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
-                    <button className='mx-auto rounded-xl bg-pink-400 hover:shadow-lg hover:shadow-pink-600 duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
                 </div>
             </div>
             <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
@@ -45,8 +45,8 @@ const Projects = () => {
                     <p className='py-2'>Me and a Friend wanted to sell our own ®LEGO Creations online, and I made this Website In August 2022, I reworked the whole Website with React.js and it was the first Time, I used React Routing for the multi-page system. I used <a href="https://tailwindcss.com" rel="noreferrer" target='_blank' className='text-nevBlue underline font-bold'>Tailwind CSS</a> to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='text-nevBlue underline font-bold'>Paypal Buttons</a>.</p>
                 </div>
                 <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
-                    <button className='mx-auto rounded-xl bg-cyan-400 hover:shadow-lg hover:shadow-cyan-600 duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
-                    <button className='mx-auto rounded-xl bg-pink-400 hover:shadow-lg hover:shadow-pink-600 duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
                 </div>
             </div>
         </div>
