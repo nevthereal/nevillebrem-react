@@ -19,7 +19,7 @@ body {
 }
 
 @keyframes bg-anim {
-    from {background-position-y: 0%}
+    from {background-position-y: -100%}
     to {background-position-y: 100%}
 }
 
