@@ -14,7 +14,7 @@ const Skills = () => {
     return (
     <div id='skills' className='text-white px-4 py-16'>
         <div className='md:grid md:grid-cols-2 justify-center'>
-            <h1 className='text-4xl md:text-5xl mx-auto pb-8 uppercase font-bold text-center my-auto'><i className='fa-solid fa-list-check text-3xl md:text-4xl'></i> Skills</h1>
+            <h1 className='text-4xl md:text-5xl mx-auto pb-8 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-list-check text-3xl md:text-4xl'></i> Skills</h1>
             <div>
                 <Html />
                 <Css />
