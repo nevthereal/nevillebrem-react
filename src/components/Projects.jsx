@@ -27,7 +27,7 @@ const Projects = () => {
                 <div>
                     <div className='flex justify-between'>
                         <h1 className='font-bold text-xl font-[Montserrat]'>Old Portfolio</h1>
-                        <a href="https://nevbruh.com" target='_blank' rel="noreferrer"><img src={oldLogo} alt="old portfolio logo" className='w-14 rounded-xl hover:rotate-12 duration-150'/></a>
+                        <a href="https://old.nevillebrem.com" target='_blank' rel="noreferrer"><img src={oldLogo} alt="old portfolio logo" className='w-14 rounded-xl hover:rotate-12 duration-150'/></a>
                     </div>
                     <p className='py-2'>This was my Portfolio before I learned ReactJS. I built it with Vanilla CSS and the only Library I was using, is <a href="https://fontawesome.com" target="_blank" rel='noreferrer' >Font Awesome</a>. I also used some SVG animations here and there.</p>
                 </div>
