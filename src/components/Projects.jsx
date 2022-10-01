@@ -1,5 +1,5 @@
 import React from 'react'
-import bruhLogo from '../assets/logo.jpeg'
+import oldLogo from '../assets/n.png'
 import tcLogo from '../assets/TheCreatorsLogo.png'
 import wbLogo from '../assets/wb_logo.png'
 
@@ -26,14 +26,14 @@ const Projects = () => {
             <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
                 <div>
                     <div className='flex justify-between'>
-                        <h1 className='font-bold text-xl font-[Montserrat]'>Bruhpage</h1>
-                        <a href="https://nevbruh.com" target='_blank' rel="noreferrer"><img src={bruhLogo} alt="bruhpage logo" className='w-14 rounded-full hover:rotate-12 duration-150'/></a>
+                        <h1 className='font-bold text-xl font-[Montserrat]'>Old Portfolio</h1>
+                        <a href="https://nevbruh.com" target='_blank' rel="noreferrer"><img src={oldLogo} alt="old portfolio logo" className='w-14 rounded-xl hover:rotate-12 duration-150'/></a>
                     </div>
-                    <p className='py-2'>Since I have a german gaming YouTube Channel and my old Bruhpage was made with Google Sites, I wanted to remake the whole Website. This was also my first <a href="https://tailwindcss.com" target='_blank' rel="noreferrer" className='text-nevBlue underline font-bold'>Tailwind CSS</a> Project. It is also planned to rework this Website with React!</p>
+                    <p className='py-2'>This was my Portfolio before I learned ReactJS. I built it with Vanilla CSS and the only Library I was using, is <a href="https://fontawesome.com" target="_blank" rel='noreferrer' >Font Awesome</a>. I also used some SVG animations here and there.</p>
                 </div>
                 <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
-                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
-                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/personal-website-old" target="_blank" rel="noreferrer">Github</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://old.nevillebrem.com" target='blank'>Website</a></button>
                 </div>
             </div>
             <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
@@ -45,8 +45,8 @@ const Projects = () => {
                     <p className='py-2'>Me and a Friend wanted to sell our own ®LEGO Creations online, and I made this Website In August 2022, I reworked the whole Website with React.js and it was the first Time, I used React Routing for the multi-page system. I used <a href="https://tailwindcss.com" rel="noreferrer" target='_blank' className='text-nevBlue underline font-bold'>Tailwind CSS</a> to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='text-nevBlue underline font-bold'>Paypal Buttons</a>.</p>
                 </div>
                 <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
-                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
-                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/willsbrix-v2" target="_blank" rel="noreferrer">Github</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://willsbrix.com" target='blank'>Website</a></button>
                 </div>
             </div>
         </div>
