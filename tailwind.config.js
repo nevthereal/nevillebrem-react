@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       colors: {
         nevBlue: '#4cc9f0',
-        bgGray: '#111111'
       }
     },
   },
