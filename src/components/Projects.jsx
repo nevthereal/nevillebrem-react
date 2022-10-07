@@ -18,7 +18,7 @@ const Projects = () => {
                     </div>
                     <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='text-nevBlue underline font-bold' target="_blank">Jan Lampert's</a> and my NFT Collections. You can find the Link down here 👇.</p>
                 </div>
-                <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
+                <div className='flex md:scale-0 rotate-180 group-hover:rotate-0 group-hover:scale-100 duration-300'>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
                 </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                     </div>
                     <p className='py-2'>This was my Portfolio before I learned ReactJS. I built it with Vanilla CSS and the only Library I was using, is <a href="https://fontawesome.com" target="_blank" rel='noreferrer' >Font Awesome</a>. I also used some SVG animations here and there.</p>
                 </div>
-                <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
+                <div className='flex md:scale-0 rotate-180 group-hover:rotate-0 group-hover:scale-100 duration-300'>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/personal-website-old" target="_blank" rel="noreferrer">Github</a></button>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://old.nevillebrem.com" target='blank'>Website</a></button>
                 </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                     </div>
                     <p className='py-2'>Me and a Friend wanted to sell our own ®LEGO Creations online, and I made this Website In August 2022, I reworked the whole Website with React.js and it was the first Time, I used React Routing for the multi-page system. I used <a href="https://tailwindcss.com" rel="noreferrer" target='_blank' className='text-nevBlue underline font-bold'>Tailwind CSS</a> to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='text-nevBlue underline font-bold'>Paypal Buttons</a>.</p>
                 </div>
-                <div className='flex md:scale-0 group-hover:scale-100 duration-300'>
+                <div className='flex md:scale-0 rotate-180 group-hover:rotate-0 group-hover:scale-100 duration-300'>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/willsbrix-v2" target="_blank" rel="noreferrer">Github</a></button>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://willsbrix.com" target='blank'>Website</a></button>
                 </div>
