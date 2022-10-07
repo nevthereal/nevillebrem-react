@@ -42,9 +42,9 @@ const Contact = () => {
             <div className='bg-white my-4 rounded-xl p-2 text-black lg:w-1/2 lg:mx-auto lg:p-8'>
                 <h1 className='text-3xl font-black uppercase lg:text-4xl font-[Montserrat]'><i class="fa-solid fa-hand rotate-[25deg] waving-hand"></i> Say Hello!</h1>
                     <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" name='user_name' required className='border border-gray-400 rounded-lg p-1 mt-4 mb-2 w-11/12 outline-none' placeholder='Your Name' />
-                        <input type="text" name='user_email' required className='border border-gray-400 rounded-lg p-1 my-2 w-11/12 outline-none' placeholder='Your Email' />
-                        <textarea name="message" maxLength={750} className='border border-gray-400 rounded-lg p-1 my-2 w-11/12 h-32 outline-none resize-none' placeholder='Your Message (max 750)' />
+                        <input type="text" name='user_name' required className='border border-gray-400 rounded-lg p-1 mt-4 mb-2 w-11/12' placeholder='Your Name' />
+                        <input type="text" name='user_email' required className='peer border border-gray-400 rounded-lg p-1 my-2 w-11/12' placeholder='Your Email' />
+                        <textarea name="message" maxLength={750} className='border border-gray-400 rounded-lg p-1 my-2 w-11/12 h-32 resize-none' placeholder='Your Message (max 750)' />
                         <br />
                         <input type="submit" value="Send" className='rounded-lg bg-nevBlue px-1 py-2 font-bold lg:text-xl lg:px-2 lg:py-2 cursor-pointer duration-200 ease-in-out'/>
                     </form>
