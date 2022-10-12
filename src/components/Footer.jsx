@@ -15,7 +15,7 @@ const Footer = () => {
                 <a className='footer-btn' rel='noreferrer' href="https://twitter.com/bremneville" target='_blank'><SiTwitter /></a>
                 <a className='footer-btn' rel='noreferrer' href="https://github.com/nevthereal" target='_blank'><SiGithub /></a>
                 <a className='footer-btn' rel='noreferrer' href="https://fiverr.com/nevbruhtv" target='_blank'><SiFiverr /></a>
-                <a className='footer-btn' rel='noreferrer' href="https://instagram.com/neville_artwork" target='_blank'><SiInstagram /></a>
+                <a className='footer-btn' rel='noreferrer' href="https://instagram.com/nevillebrem" target='_blank'><SiInstagram /></a>
                 <a className='footer-btn' rel='noreferrer' href="https://www.youtube.com/channel/UC8ZQP0c8D5sHkfAPzL9jNBA" target='_blank'><SiYoutube /></a>
             </div>
         </div>

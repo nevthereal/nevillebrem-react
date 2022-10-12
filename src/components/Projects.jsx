@@ -2,6 +2,7 @@ import React from 'react'
 import oldLogo from '../assets/n.png'
 import tcLogo from '../assets/TheCreatorsLogo.png'
 import wbLogo from '../assets/wb_logo.png'
+import artLogo from '../assets/art.png'
 
 const Projects = () => {
 
@@ -21,6 +22,19 @@ const Projects = () => {
                 <div className='flex md:opacity-0 md:scale-75 md:group-hover:opacity-100 md:group-hover:scale-100 duration-300'>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer">Github</a></button>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
+                </div>
+            </div>
+            <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
+                <div>
+                    <div className='flex justify-between'>
+                        <h1 className='font-bold text-xl font-[Montserrat]'>Artwork Gallery</h1>
+                        <a href="https://thecreatorsnft.com" target='_blank' rel="noreferrer"><img src={artLogo} alt="art Logo" className='w-14 hover:rotate-12 duration-150' /></a>
+                    </div>
+                    <p className='py-2'>For my <a href="https://instagram.com/neville_artwork" target="_blank" rel="noreferrer">Art-Instagram-Page</a> I wanted to make a website with a little overview for all my favourite Artworks! Made with React x Tailwind.</p>
+                </div>
+                <div className='flex md:opacity-0 md:scale-75 md:group-hover:opacity-100 md:group-hover:scale-100 duration-300'>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/artpage" target="_blank" rel="noreferrer">Github</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://art.nevillebre,.com" target='blank'>Website</a></button>
                 </div>
             </div>
             <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
