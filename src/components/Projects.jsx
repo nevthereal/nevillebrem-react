@@ -34,7 +34,7 @@ const Projects = () => {
                 </div>
                 <div className='flex md:opacity-0 md:scale-75 md:group-hover:opacity-100 md:group-hover:scale-100 duration-300'>
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://github.com/nevthereal/artpage" target="_blank" rel="noreferrer">Github</a></button>
-                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://art.nevillebre,.com" target='blank'>Website</a></button>
+                    <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://art.nevillebrem.com" target='blank'>Website</a></button>
                 </div>
             </div>
             <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
