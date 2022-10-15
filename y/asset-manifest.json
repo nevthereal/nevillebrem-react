@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36715a8e.css",
+    "main.js": "/static/js/main.041680ce.js",
+    "static/media/art.png": "/static/media/art.aff7b79d1be3bdeab813.png",
+    "static/media/TheCreatorsLogo.png": "/static/media/TheCreatorsLogo.d4284d5c9cea9ebee5ac.png",
+    "static/media/wb_logo.png": "/static/media/wb_logo.c54dae1c97530abc1928.png",
+    "static/media/n.png": "/static/media/n.52891e773e00b21b7419.png",
+    "static/media/wave.svg": "/static/media/wave.b28ec863e2ac1ec8b149.svg",
+    "index.html": "/index.html",
+    "main.36715a8e.css.map": "/static/css/main.36715a8e.css.map",
+    "main.041680ce.js.map": "/static/js/main.041680ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36715a8e.css",
+    "static/js/main.041680ce.js"
+  ]
+}
