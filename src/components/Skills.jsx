@@ -91,8 +91,8 @@ const Skills = () => {
                 <SiAdobepremierepro className='text-5xl text-[#02005b] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
-                            Since I have a YouTube Channel, I have Intermediate Skill in Adobe Premiere Pro.
-                            I am planning to quit Adobe's Premiere though, because I am interested in Blackmagic's DaVinci Resolve.
+                            Since I had a YouTube Channel, I have Intermediate Skill in Adobe Premiere Pro.
+                            I love to edit Videos and create stuff in Premiere. I am again planing to make videos on my <a href="https://www.youtube.com/channel/UC8ZQP0c8D5sHkfAPzL9jNBA" target='_blank' rel='noreferrer'>YouTube</a>
                         </p>
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Early 2022</p>
                     </div>

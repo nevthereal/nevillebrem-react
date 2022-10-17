@@ -26,15 +26,15 @@ const Contact = () => {
             <div>
                 <div className='py-4'>
                     <h1 className='uppercase text-3xl font-black'>Email:</h1>
-                    <p>Contact me on <a href="mailto:contact@nevillebrem.com" className='underline text-nevBlue'>contact@nevillebrem.com</a></p>
+                    <p>Contact me on <a href="mailto:contact@nevillebrem.com" className='link'>contact@nevillebrem.com</a></p>
                 </div>
                 <div className='py-4'>
                     <h1 className='uppercase text-3xl font-black'>Twitter:</h1>
-                    <p>Write me a DM at <a href="https://twitter.com/bremneville" className='underline text-nevBlue'>@BremNeville</a></p>
+                    <p>Write me a DM at <a href="https://twitter.com/bremneville" className='link'>@BremNeville</a></p>
                 </div>
                 <div className='py-4'>
                     <h1 className='uppercase text-3xl font-black'>Github:</h1>
-                    <p>Take a look at my Repositories: <a href="https://github.com/nevthereal" className='underline text-nevBlue'>@nevthereal</a></p>
+                    <p>Take a look at my Repositories: <a href="https://github.com/nevthereal" className='link'>@nevthereal</a></p>
                 </div>
             </div>
         </div>

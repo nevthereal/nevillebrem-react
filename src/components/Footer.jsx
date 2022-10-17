@@ -19,7 +19,7 @@ const Footer = () => {
                 <a className='footer-btn' rel='noreferrer' href="https://www.youtube.com/channel/UC8ZQP0c8D5sHkfAPzL9jNBA" target='_blank'><SiYoutube /></a>
             </div>
         </div>
-        <p className='text-center pt-8 font-bold'>Copyright <a href="https://twitter.com/bremneville">Neville Brem</a>, <i class="fa-solid fa-location-dot"></i> Zurich, Switzerland. All Rights reserved</p>
+        <p className='text-center pt-8 font-bold'>Copyright <a href="https://twitter.com/bremneville" className='link'>Neville Brem</a>, <i className="fa-solid fa-location-dot"></i> Zurich, Switzerland. All Rights reserved</p>
     </div>
   )
 }
