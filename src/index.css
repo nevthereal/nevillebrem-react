@@ -25,3 +25,7 @@ body {
 a.link {
     @apply text-nevBlue underline font-bold;
 }
+
+.important {
+    @apply text-nevBlue
+}
