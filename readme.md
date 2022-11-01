@@ -1,11 +1,10 @@
 # Neville Brem Personal Website
 
 This is the official Repo of https://nevillebrem.com!
-This was my first [Reactjs](https://reactjs.org/) Project, so be kind and if you have any suggestions or comments, send them to contact@nevillebrem.com.
+It was the first time I used [Reactjs](https://reactjs.org/) in a Project, so be kind and if you have any suggestions or comments, send them to [](contact@nevillebrem.com).
 
 I used some Libraries, to which I want to point out:
 
 - [Tailwind CSS](https://tailwindcss.com) for the styling of the page
 - [React Typed](https://www.npmjs.com/package/react-typed) for the typo animations in the hero section
 - [EmailJS](https://emailjs.com) for the contact form component
-- 
