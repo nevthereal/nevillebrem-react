@@ -12,7 +12,7 @@ const Skills = () => {
         <div className='md:grid md:grid-cols-2 justify-center'>
             <h1 className='text-4xl md:text-5xl mx-auto pb-8 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-list-check text-3xl md:text-4xl'></i> Skills</h1>
             <div className='flex flex-col gap-y-4 md:mx-10'>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                     <AiFillHtml5 className='text-5xl text-[#FF5733] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
@@ -22,7 +22,7 @@ const Skills = () => {
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Fall 2021</p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                     <FaCss3Alt className='text-5xl text-[#264de4] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
@@ -32,7 +32,7 @@ const Skills = () => {
                         </p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                     <DiJavascript className='text-5xl text-[#eed91a] mx-auto' />
                     <div className='text-center text-black'>
                     <p>
@@ -41,7 +41,7 @@ const Skills = () => {
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Spring 2022</p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <FaPython className='text-5xl text-[#2e6d9a] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
@@ -50,7 +50,7 @@ const Skills = () => {
                         </p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <FaReact className='text-5xl text-[#61dbfb] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
@@ -59,7 +59,7 @@ const Skills = () => {
                     <p className='font-extrabold text-gray-400 text-sm uppercase'>Summer 2022</p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <SiTailwindcss className='text-5xl text-[#37bdf9] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
@@ -68,7 +68,7 @@ const Skills = () => {
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Summer 2022</p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <RiBrush4Line className='text-5xl text-emerald-500 mx-auto' />
                     <div className='text-center text-black'>
                         <p>
@@ -77,7 +77,7 @@ const Skills = () => {
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>late 2020</p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <SiAdobephotoshop className='text-5xl text-[#001d36] mx-auto icon' />
                     <div className='text-center text-black'>
                     <p>
@@ -87,7 +87,7 @@ const Skills = () => {
                     <p className='font-extrabold text-gray-400 text-sm uppercase'>Mid 2021</p>
                     </div>
                 </div>
-                <div className='mx-auto text-center bg-white p-4 rounded-2xl md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 border-2 border-gray-300'>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <SiAdobepremierepro className='text-5xl text-[#02005b] mx-auto' />
                     <div className='text-center text-black'>
                         <p>

@@ -11,7 +11,7 @@ const Projects = () => {
     <div id='projects' className='px-4 bg-white py-16'>
         <h1 className='text-4xl md:text-5xl mx-auto pb-8 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
         <div className='md:flex justify-center'>
-            <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
+            <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
                         <h1 className='font-bold text-xl font-[Montserrat]'>The[Creators] - NFT Homepage</h1>
@@ -24,7 +24,7 @@ const Projects = () => {
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://thecreatorsnft.com" target='blank'>Website</a></button>
                 </div>
             </div>
-            <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
+            <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
                         <h1 className='font-bold text-xl font-[Montserrat]'>Artwork Gallery</h1>
@@ -37,7 +37,7 @@ const Projects = () => {
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://art.nevillebrem.com" target='blank'>Website</a></button>
                 </div>
             </div>
-            <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
+            <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
                         <h1 className='font-bold text-xl font-[Montserrat]'>Old Portfolio</h1>
@@ -50,7 +50,7 @@ const Projects = () => {
                     <button className='mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl'><a href="https://old.nevillebrem.com" target='blank'>Website</a></button>
                 </div>
             </div>
-            <div className='flex flex-col justify-between m-2 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg max-w-md shadow-xl mx-auto md:mx-4 duration-150 group'>
+            <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
                         <h1 className='font-bold text-xl font-[Montserrat]'>Will's Brix - Online Store</h1>

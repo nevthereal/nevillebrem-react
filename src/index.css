@@ -22,6 +22,14 @@ body {
     @apply text-2xl md:text-4xl p-3 hover:scale-110 hover:bg-gray-100 border-white border-2 hover:border-gray-300 rounded-3xl duration-300;
 }
 
+.card {
+    @apply bg-gray-100 border-2 border-gray-300 rounded-lg;
+}
+
+.prj-card {
+    @apply flex flex-col justify-between m-2 p-4 max-w-md shadow-xl mx-auto md:mx-4 duration-150;
+}
+
 a.link {
     @apply text-nevBlue underline font-bold;
 }
