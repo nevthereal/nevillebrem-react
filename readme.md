@@ -1,7 +1,7 @@
 # Neville Brem Personal Website
 
 This is the official Repo of https://nevillebrem.com!
-It was the first time I used [Reactjs](https://reactjs.org/) in a Project, so be kind and if you have any suggestions or comments, send them to [](contact@nevillebrem.com).
+It was the first time I used [Reactjs](https://reactjs.org/) in a Project, so be kind and if you have any suggestions or comments, send them to [my Contact Mail](contact@nevillebrem.com).
 
 I used some Libraries, to which I want to point out:
 
