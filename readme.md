@@ -14,4 +14,4 @@ I used some Libraries, to which I want to point out:
 
  Hero Section and Navbar:
 
- ![]([./images/hero.png] "[Hero Section and Navabr]")
+ ![Hero Section]([./images/hero.png] "[Hero Section and Navabr]")
