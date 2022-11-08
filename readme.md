@@ -8,3 +8,10 @@ I used some Libraries, to which I want to point out:
 - [Tailwind CSS](https://tailwindcss.com) for the styling of the page
 - [React Typed](https://www.npmjs.com/package/react-typed) for the typo animations in the hero section
 - [EmailJS](https://emailjs.com) for the contact form component
+- [Font Awesome](https://fontawesome.com) for the beatiful icons
+
+ # Documentation
+
+ Hero Section and Navbar:
+
+ ![]([./images/hero.png] "[Hero Section and Navabr]")
