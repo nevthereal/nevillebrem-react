@@ -13,5 +13,3 @@ I used some Libraries, to which I want to point out:
  # Documentation
 
  Hero Section and Navbar:
-
- ![Hero Section]([./images/hero.png] "[Hero Section and Navabr]")
