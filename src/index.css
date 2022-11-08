@@ -37,3 +37,7 @@ a.link {
 .important {
     @apply text-nevBlue
 }
+
+.nav-link {
+    @apply hover:text-nevBlue duration-200
+}

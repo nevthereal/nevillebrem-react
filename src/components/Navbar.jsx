@@ -15,10 +15,10 @@ const Navbar = () => {
     <div className='flex justify-between items-center p-4 text-white h-24'>
         <p className='text-nevBlue text-3xl font-black font-[Montserrat]'>Neville Brem</p>
         <ul className='p-4 hidden md:flex gap-4'>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" className='nav-link'>About</a></li>
+            <li><a href="#skills" className='nav-link'>Skills</a></li>
+            <li><a href="#projects" className='nav-link'>Projects</a></li>
+            <li><a href="#contact" className='nav-link'>Contact</a></li>
         </ul>
         <div onClick={handleNav} className='fixed md:hidden right-8 top-8 text-gray-300'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}

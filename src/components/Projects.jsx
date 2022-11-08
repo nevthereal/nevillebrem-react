@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id='projects' className='px-4 bg-white py-16'>
         <h1 className='text-4xl md:text-5xl mx-auto pb-8 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
-        <div className='md:grid grid-cols-4 justify-center'>
+        <div className='lg:grid lg:grid-cols-4 justify-center'>
             <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
