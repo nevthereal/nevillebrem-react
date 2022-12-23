@@ -11,7 +11,8 @@ const About = () => {
                 <br />
                 <br />
                 My main Interests are <span className='important'>Web Development</span>, Crypto (especially <span className='important'>NFTs</span>), Content Creation, Music and I am playing the <span className='important'>Piano</span>. <br />
-                I <span className='important'>love creating</span> stuff and <span className='important'>editing</span> videos or photos. I am familiar with the <span className='important'>Adobe Creative Cloud</span> (more later). 
+                I <span className='important'>love creating</span> stuff and <span className='important'>editing</span> videos or photos. I am familiar with the <span className='important'>Adobe Creative Cloud</span> (more later).  <br />
+                I am planning to revive my YouTube channel soon, so be ready for this.
             </p>
         </div>
     </div>
