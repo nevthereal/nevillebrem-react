@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='bg-white px-4 py-8'>
+    <div className='px-4 py-8 text-white'>
         <div className='flex justify-between md:justify-center md:gap-10'>
             <div className='flex gap-3 md:gap-6 my-auto mx-auto'>
                 <a className='footer-btn' rel='noreferrer' href="https://twitter.com/bremneville" target='_blank'><SiTwitter /></a>

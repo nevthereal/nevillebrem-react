@@ -20,27 +20,27 @@ const Contact = () => {
     };
     
     return (
-    <div id='contact' className='px-4 py-16 text-white'>
+    <div id='contact' className='px-4 py-16 bg-white'>
          <div className='grid md:grid-cols-2'>
-            <h1 className='text-4xl md:text-5xl mx-auto p-16 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-share text-3xl md:text-4xl'></i> Contact</h1>
+            <h1 className='mx-auto p-16 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-share text-3xl md:text-4xl'></i> Contact</h1>
             <div>
                 <div className='py-4'>
-                    <h1 className='uppercase text-3xl font-black'>Email:</h1>
+                    <h2 className='uppercase font-black'>Email:</h2>
                     <p>Contact me on <a href="mailto:contact@nevillebrem.com" className='link'>contact@nevillebrem.com</a></p>
                 </div>
                 <div className='py-4'>
-                    <h1 className='uppercase text-3xl font-black'>Twitter:</h1>
+                    <h2 className='uppercase font-black'>Twitter:</h2>
                     <p>Write me a DM at <a href="https://twitter.com/bremneville" className='link'>@BremNeville</a></p>
                 </div>
                 <div className='py-4'>
-                    <h1 className='uppercase text-3xl font-black'>Github:</h1>
+                    <h2 className='uppercase  font-black'>Github:</h2>
                     <p>Take a look at my Repositories: <a href="https://github.com/nevthereal" className='link'>@nevthereal</a></p>
                 </div>
             </div>
         </div>
         <div id='form'>
             <div className='card p-2 text-black lg:w-1/2 lg:mx-auto lg:p-8'>
-                <h1 className='text-3xl font-black uppercase lg:text-4xl font-[Montserrat]'><i class="fa-solid fa-hand rotate-[25deg] waving-hand"></i> Say Hello!</h1>
+                <h2 className='font-black uppercase lg:text-4xl font-[Montserrat]'><i class="fa-solid fa-hand rotate-[25deg] waving-hand"></i> Say Hello!</h2>
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name='user_name' required className='border border-gray-400 rounded-lg p-1 mt-4 mb-2 w-11/12' placeholder='Your Name' />
                         <input type="text" name='user_email' required className='peer border border-gray-400 rounded-lg p-1 my-2 w-11/12' placeholder='Your Email' />

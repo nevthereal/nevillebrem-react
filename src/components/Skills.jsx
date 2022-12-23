@@ -1,8 +1,8 @@
 import React from 'react'
 import {AiFillHtml5} from 'react-icons/ai'
-import {FaCss3Alt, FaPython, FaReact} from 'react-icons/fa'
+import {FaCss3Alt} from 'react-icons/fa'
 import {DiJavascript} from 'react-icons/di'
-import {SiTailwindcss, SiAdobephotoshop, SiAdobepremierepro} from 'react-icons/si'
+import {SiAdobephotoshop, SiAdobepremierepro, SiAdobelightroom} from 'react-icons/si'
 import {RiBrush4Line} from 'react-icons/ri'
 
 const Skills = () => {
@@ -27,7 +27,7 @@ const Skills = () => {
                     <div className='text-center text-black'>
                         <p>
                             I am styling with CSS as long as I have benn coding with HTML.
-                            I'm especially interested and good in Animation with Keyframes and Transitions.
+                            I like to use it for transitions and animation, whatever, I tend to use <a className='link' href="https://tailwindcss.com" target='_blank' rel='noreferrer'>Tailwind CSS</a> nowadays, since it's far more convenient and more comfortable to use.
                             <p className='font-extrabold text-gray-400 text-sm uppercase'>Early 2022</p>
                         </p>
                     </div>
@@ -36,53 +36,25 @@ const Skills = () => {
                     <DiJavascript className='text-5xl text-[#eed91a] mx-auto' />
                     <div className='text-center text-black'>
                     <p>
-                        I've been working with JavaScript for a while now. I mostly use it in ReactJS
+                        I've been working with JavaScript for a while now. I've also learned a framework, React.JS, which this website was built with. I have some experiences with node.js, but I am planning to improve them.
                         </p>
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Spring 2022</p>
                     </div>
                 </div>
                 <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
-                <FaPython className='text-5xl text-[#2e6d9a] mx-auto' />
+                <SiAdobelightroom className='text-5xl text-[#001d36] mx-auto icon' />
                     <div className='text-center text-black'>
-                        <p>
-                            I am learning Python in School at the Moment and I am working on my Skills in Object-Oriented Programming
-                            <p className='font-extrabold text-gray-400 text-sm uppercase'>Fall 2022</p>
-                        </p>
-                    </div>
-                </div>
-                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
-                <FaReact className='text-5xl text-[#61dbfb] mx-auto' />
-                    <div className='text-center text-black'>
-                        <p>
-                            I am in the early stages of learning the JavaScript Framework ReactJS. I am using a few Libraries, such as Framer Motion, React-Typed as well as React-Icons for this project. This is one of my first React projects.
-                        </p>
-                    <p className='font-extrabold text-gray-400 text-sm uppercase'>Summer 2022</p>
-                    </div>
-                </div>
-                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
-                <SiTailwindcss className='text-5xl text-[#37bdf9] mx-auto' />
-                    <div className='text-center text-black'>
-                        <p>
-                            I've been working with TailwindCSS in recent time, and I must admit that it's a real time-saver, so I'm planning to use it more! This Website is also styled with TailwindCSS!
-                        </p>
-                        <p className='font-extrabold text-gray-400 text-sm uppercase'>Summer 2022</p>
-                    </div>
-                </div>
-                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
-                <RiBrush4Line className='text-5xl text-emerald-500 mx-auto' />
-                    <div className='text-center text-black'>
-                        <p>
-                            Since 2020, I do Digital Art in Procreate. Find out more on my Instagram.
-                        </p>
-                        <p className='font-extrabold text-gray-400 text-sm uppercase'>late 2020</p>
+                    <p>
+                        Since I am a casual photographer, I am editing these photos in Lightroom. I can do everything, from Light adjustments to Color Grading/Correction. But I am still learning. You can find out more on the <a className='link' href="#social">Social</a> Section.
+                    </p>
+                    <p className='font-extrabold text-gray-400 text-sm uppercase'>Mid 2021</p>
                     </div>
                 </div>
                 <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
                 <SiAdobephotoshop className='text-5xl text-[#001d36] mx-auto icon' />
                     <div className='text-center text-black'>
                     <p>
-                        I am in the upper intermediate stage of Photoshop Editing, especially with compositing, lighting and shadowing.
-                        I am a Photoshop Editor since Fall 2021.
+                        I am in the intermediate stage of Photoshop Editing, especially with compositing, lighting and shadowing.
                     </p>
                     <p className='font-extrabold text-gray-400 text-sm uppercase'>Mid 2021</p>
                     </div>
@@ -92,11 +64,20 @@ const Skills = () => {
                     <div className='text-center text-black'>
                         <p>
                             Since I had a YouTube Channel, I have Intermediate Skill in Adobe Premiere Pro.
-                            I love to edit Videos and create stuff in Premiere. I am again planing to make videos on my <a href="https://www.youtube.com/channel/UC8ZQP0c8D5sHkfAPzL9jNBA" target='_blank' rel='noreferrer'>YouTube</a>
+                            I love to edit Videos and create stuff in Premiere. I am again planing to make videos on my <a className='link' href="https://www.youtube.com/channel/UC8ZQP0c8D5sHkfAPzL9jNBA" target='_blank' rel='noreferrer'>YouTube</a>.
                         </p>
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Early 2022</p>
                     </div>
                 </div>
+                <div className='mx-auto text-center p-4 md: w-4/5 md:hover:scale-105 duration-200 ease-in-out bg-gray-110 card'>
+                    <RiBrush4Line className='text-5xl text-emerald-500 mx-auto' />
+                        <div className='text-center text-black'>
+                            <p>
+                                Since 2020, I do Digital Art in Procreate. Find out more on my Instagram.
+                            </p>
+                            <p className='font-extrabold text-gray-400 text-sm uppercase'>late 2020</p>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>

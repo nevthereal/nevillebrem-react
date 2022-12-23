@@ -9,12 +9,12 @@ const Projects = () => {
 
   return (
     <div id='projects' className='px-4 bg-white py-16'>
-        <h1 className='text-4xl md:text-5xl mx-auto pb-8 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
+        <h1 className='mx-auto pb-8 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
         <div className='lg:grid lg:grid-cols-4 justify-center'>
             <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
-                        <h1 className='font-bold text-xl font-[Montserrat]'>The[Creators] - NFT Homepage</h1>
+                        <h3 className='font-bold font-[Montserrat]'>The[Creators] - NFT Homepage</h3>
                         <a href="https://thecreatorsnft.com" target='_blank' rel="noreferrer"><img src={tcLogo} alt="thecreatorslogo" className='w-14 hover:rotate-12 duration-150' /></a>
                     </div>
                     <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='link' target="_blank">Jan Lampert's</a> and my NFT Collections. You can find the Link down here 👇.</p>
@@ -27,7 +27,7 @@ const Projects = () => {
             <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
-                        <h1 className='font-bold text-xl font-[Montserrat]'>Artwork Gallery</h1>
+                        <h3 className='font-[Montserrat]'>Artwork Gallery</h3>
                         <a href="https://thecreatorsnft.com" target='_blank' rel="noreferrer"><img src={artLogo} alt="art Logo" className='w-14 hover:rotate-12 duration-150' /></a>
                     </div>
                     <p className='py-2'>For my <a href="https://instagram.com/neville_artwork" target="_blank" rel="noreferrer" className='link'>Art-Instagram-Page</a> I wanted to make a website with a little overview for all my favourite Artworks! Made with React x Tailwind.</p>
@@ -40,7 +40,7 @@ const Projects = () => {
             <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
-                        <h1 className='font-bold text-xl font-[Montserrat]'>Old Portfolio</h1>
+                        <h3 className='font-bold font-[Montserrat]'>Old Portfolio</h3>
                         <a href="https://old.nevillebrem.com" target='_blank' rel="noreferrer"><img src={oldLogo} alt="old portfolio logo" className='w-14 rounded-xl hover:rotate-12 duration-150'/></a>
                     </div>
                     <p className='py-2'>This was my Portfolio before I learned ReactJS. I built it with Vanilla CSS and the only Library I was using, was <a href="https://fontawesome.com" target="_blank" rel='noreferrer' className='link' >Font Awesome</a>. I also used some SVG animations here and there.</p>
@@ -53,7 +53,7 @@ const Projects = () => {
             <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
-                        <h1 className='font-bold text-xl font-[Montserrat]'>Will's Brix - Online Store</h1>
+                        <h3 className='font-bold font-[Montserrat]'>Will's Brix - Online Store</h3>
                         <a href="https://willsbrix.com" target='_blank' rel="noreferrer"><img src={wbLogo} alt="wills brix logo" className='w-14 hover:rotate-12 duration-150'/></a>
                     </div>
                     <p className='py-2'>Me and a Friend wanted to sell our own ®LEGO Creations online, and I made this Website In August 2022, I reworked the whole Website with React.js and it was the first Time, I used React Routing for the multi-page system. I used <a href="https://tailwindcss.com" rel="noreferrer" target='_blank' className='link'>Tailwind CSS</a> to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='link'>Paypal Buttons</a>.</p>
