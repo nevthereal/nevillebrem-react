@@ -27,7 +27,7 @@ const Projects = () => {
             <div className='prj-card card group'>
                 <div>
                     <div className='flex justify-between'>
-                        <h3 className='font-[Montserrat]'>Artwork Gallery</h3>
+                        <h3 className=' font-bold font-[Montserrat]'>Artwork Gallery</h3>
                         <a href="https://thecreatorsnft.com" target='_blank' rel="noreferrer"><img src={artLogo} alt="art Logo" className='w-14 hover:rotate-12 duration-150' /></a>
                     </div>
                     <p className='py-2'>For my <a href="https://instagram.com/neville_artwork" target="_blank" rel="noreferrer" className='link'>Art-Instagram-Page</a> I wanted to make a website with a little overview for all my favourite Artworks! Made with React x Tailwind.</p>

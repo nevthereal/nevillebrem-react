@@ -16,8 +16,8 @@ const Skills = () => {
                     <AiFillHtml5 className='text-5xl text-[#FF5733] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
-                        I am an intermediate HTML developer. I'm learning HTML since 2021 and I'm learning constantly more.
-                        Learn more down on the <a href="#projects">Projects</a> Section!
+                        I am an intermediate HTML developer. I've been learning HTML since 2021 and I'm constantly improving my skills.
+                        Learn more down on the <a className='link' href="#projects">Projects</a> Section!
                         </p>
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Fall 2021</p>
                     </div>
@@ -63,8 +63,8 @@ const Skills = () => {
                 <SiAdobepremierepro className='text-5xl text-[#02005b] mx-auto' />
                     <div className='text-center text-black'>
                         <p>
-                            Since I had a YouTube Channel, I have Intermediate Skill in Adobe Premiere Pro.
-                            I love to edit Videos and create stuff in Premiere. I am again planing to make videos on my <a className='link' href="https://www.youtube.com/channel/UC8ZQP0c8D5sHkfAPzL9jNBA" target='_blank' rel='noreferrer'>YouTube</a>.
+                            I used to have a German Let's Play YouTube Channel, where used Adobe Premiere Pro to edit all my Videos.
+                            I love to edit Videos and create stuff in Premiere. I am actually starting with <a className='link' href="#social">YouTube</a> again in 2023.
                         </p>
                         <p className='font-extrabold text-gray-400 text-sm uppercase'>Early 2022</p>
                     </div>
@@ -73,7 +73,7 @@ const Skills = () => {
                     <RiBrush4Line className='text-5xl text-emerald-500 mx-auto' />
                         <div className='text-center text-black'>
                             <p>
-                                Since 2020, I do Digital Art in Procreate. Find out more on my Instagram.
+                                Since 2020, I do Digital Art in Procreate. Find out more on my <a className='link' href="https://instagram.com/neville_artwork">Instagram</a>.
                             </p>
                             <p className='font-extrabold text-gray-400 text-sm uppercase'>late 2020</p>
                         </div>
