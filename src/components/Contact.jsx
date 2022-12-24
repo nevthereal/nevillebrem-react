@@ -21,7 +21,7 @@ const Contact = () => {
     
     return (
     <div id='contact' className='px-4 py-16 bg-white'>
-         <div className='grid md:grid-cols-2'>
+         <div className='grid md:grid-cols-2 pb-8'>
             <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-share text-3xl md:text-4xl'></i> Contact</h1>
             <div>
                 <div className='py-4'>

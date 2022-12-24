@@ -7,8 +7,8 @@ import {RiSendPlane2Line} from 'react-icons/ri'
 
 const Social = () => {
   return (
-    <div id='social' className='pt-4 px-8 text-center'>
-        <h1 className='font-[Montserrat] font-bold text-white'>Social</h1>
+    <div id='social' className='pt-4 px-8 lg:py-16 text-center'>
+        <h1 className='font-[Montserrat] font-bold text-white lg:pb-8'><i class="fa-solid fa-video text-3xl md:text-4xl"></i> SOCIAL</h1>
         <div className='md:flex flex-wrap md:flex-nowrap gap-4 place-content-center md:w-[60%] mx-auto'>
           <div className='px-4 py-2 my-4 card basis-1/2'>
             <h3 className="font-bold font-[Montserrat]">Instagram</h3>
