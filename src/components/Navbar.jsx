@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 
 const Navbar = () => {
@@ -12,7 +11,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex justify-between items-center p-4 text-white h-24'>
+    <div className='flex justify-between items-center p-4 text-white h-24'> 
         <p className='text-nevBlue text-3xl font-black font-[Montserrat]'>Neville Brem</p>
         <ul className='p-4 hidden md:flex gap-4'>
             <li><a href="#about" className='nav-link'>About</a></li>
@@ -22,7 +21,7 @@ const Navbar = () => {
             <li><a href="#contact" className='nav-link'>Contact</a></li>
         </ul>
         <div onClick={handleNav} className='fixed md:hidden right-8 top-8 text-gray-300'>
-        {nav ? <AiOutlineClose size={20} className='rounded-sm bg-[#111111]/75' /> : <AiOutlineMenu size={20} className='rounded-sm bg-[#111111]/75' />}
+        {nav ? <i class="fa-solid fa-xmark rounded-sm"></i> : <i class="fa-solid fa-bars rounded-sm"></i>}
         </div>
         <div className={nav ? 'fixed left-0 top-0 w-[70%] h-full border-r border-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
             <h1 className='text-nevBlue w-full text-3xl font-black m-4 font-[Montserrat]'>Neville Brem</h1>

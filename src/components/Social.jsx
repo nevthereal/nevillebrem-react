@@ -1,14 +1,18 @@
 import React from 'react'
 import ig_profile_pic from '../assets/insta_post/profile_pic.jpeg'
-import grossmunster from '../assets/insta_post/grossmunster.jpg'
+import postImage from '../assets/insta_post/post.jpeg'
 
-import {AiOutlineHeart, AiOutlineComment} from 'react-icons/ai'
-import {RiSendPlane2Line} from 'react-icons/ri'
+
 
 const Social = () => {
+
+  const instaIcon = `mr-1 text-xl md:text-2xl`
+  const postLink = `https://www.instagram.com/p/CpDu7WqsKjv/`
+
   return (
     <div id='social' className='pt-4 px-8 lg:py-16 text-center'>
-        <h1 className='font-[Montserrat] font-bold text-white lg:pb-8'><i class="fa-solid fa-video text-3xl md:text-4xl"></i> SOCIAL</h1>
+        <h1 className='font-[Montserrat] font-bold text-white lg:pb-16'><i class="fa-solid fa-video text-3xl md:text-4xl"></i> SOCIAL</h1>
+
         <div className='md:flex flex-wrap md:flex-nowrap gap-4 place-content-center md:w-[60%] mx-auto'>
           <div className='px-4 py-2 my-4 card basis-1/2'>
             <h3 className="font-bold font-[Montserrat]">Instagram</h3>
@@ -20,12 +24,12 @@ const Social = () => {
                   <a href="https://instagram.com/nevillebrem" target='_blank' rel='noreferrer'><img src={ig_profile_pic} alt="instagram pp" className='rounded-full h-[2.75rem]' /></a>
                   <p className='my-auto ml-2 font-bold'><a href="https://instagram.com/nevillebrem"  target='_blank' rel='noreferrer'>@nevillebrem</a></p>
                 </div>
-                <a href="https://www.instagram.com/p/CmcanrFMSsv" target='_blank' rel='noreferrer'><img src={grossmunster} alt="grossmeunster zurich" /></a>
+                <a href={postLink} target='_blank' rel='noreferrer'><img src={postImage} alt="grossmeunster zurich" /></a>
               </div>
               <div className='flex gap-4 m-2'>
-                  <a href="https://www.instagram.com/p/CmcanrFMSsv" target='_blank' rel='noreferrer'><AiOutlineHeart className='text-3xl'></AiOutlineHeart></a>
-                  <a href="https://www.instagram.com/p/CmcanrFMSsv" target='_blank' rel='noreferrer'><AiOutlineComment className='text-3xl' /></a>
-                  <a href="https://www.instagram.com/p/CmcanrFMSsv" target='_blank' rel='noreferrer'><RiSendPlane2Line className='text-2xl' /></a>
+                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><i className="fa-regular fa-thumbs-up"></i></h3></a>
+                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><i className="fa-regular fa-message"></i></h3></a>
+                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><i className="fa-regular fa-paper-plane"></i></h3></a>
                 </div>
             </div>
           </div>
