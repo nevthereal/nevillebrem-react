@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
 
     const projectHeading = `font-bold font-[Montserrat]`
-    const projectButton = `mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl`
+    const projectButton = `mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 md:py-4 py-2 md:px-6 px-3 font-bold text-xl`
     const projectCard = `prj-card card group mx-auto`
     const projectFlex = `flex justify-between`
 
