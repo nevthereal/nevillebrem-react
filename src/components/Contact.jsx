@@ -20,14 +20,14 @@ const Contact = () => {
     };
     
     const ContactHeader = `uppercase font-black`
-    const contactDivision = `p-6 card`
+    const contactDivision = `p-6 card my-4 md:my-0`
 
     return (
     <div id='contact' className='px-4 py-16 bg-white'>
          <div className=' pb-8'>
             <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16'><i className='fa-solid fa-share text-3xl md:text-4xl'></i> Contact</h1>
             
-            <div className='md:grid grid-cols-2 grid-rows-2 gap-4 md:mx-20'>
+            <div className='md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:mx-20'>
                 <div className={contactDivision}>
                     <h2 className={ContactHeader}>Email:</h2>
                     <p>Contact me on <a href="mailto:contact@nevillebrem.com" className='link'>contact@nevillebrem.com</a></p>
