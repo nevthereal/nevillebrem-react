@@ -4,17 +4,17 @@ const Projects = () => {
 
     const projectHeading = `font-bold font-[Montserrat]`
     const projectButton = `mx-auto rounded-xl bg-nevBlue hover:shadow-lg duration-300 py-4 px-6 font-bold text-xl`
-    const projectCard = `prj-card card group`
+    const projectCard = `prj-card card group mx-auto`
     const projectFlex = `flex justify-between`
 
   return (
     <div id='projects' className='px-4 bg-white py-16'>
-        <h1 className='mx-auto pb-16 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
+        <h1 className='pb-16 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
         
-        <div className='lg:grid lg:grid-cols-3 justify-center md:mx-10'>
+        <div className='md:mx-10 md:flex md:justify-center'>
             <div className={projectCard}>
                 <div>
-                    <div className='flex justify-between'>
+                    <div className={projectFlex}>
                         <h3 className={projectHeading}>The[Creators] - NFT Homepage</h3>
                         <h3><i className="fa-solid fa-palette"></i></h3>
                     </div>
@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
             <div className={projectCard}>
                 <div>
-                    <div className='flex justify-between'>
+                    <div className={projectFlex}>
                         <h3 className={projectHeading}>Will's Brix - Online Store</h3>
                         <h3><i className="fa-solid fa-cart-shopping"></i></h3>
                     </div>
