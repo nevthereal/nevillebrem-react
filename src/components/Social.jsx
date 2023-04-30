@@ -8,6 +8,7 @@ const Social = () => {
 
   const instaIcon = `mr-1 text-xl md:text-2xl`
   const postLink = `https://www.instagram.com/p/CpDu7WqsKjv/`
+  const socialHeading = `font-bold font-[Montserrat] mt-4`
 
   return (
     <div id='social' className='pt-4 px-8 lg:py-16 text-center'>
@@ -15,7 +16,7 @@ const Social = () => {
 
         <div className='md:flex flex-wrap md:flex-nowrap gap-4 place-content-center md:w-[60%] mx-auto'>
           <div className='px-4 py-2 my-4 card basis-1/2'>
-            <h3 className="font-bold font-[Montserrat]">Instagram</h3>
+            <h2 className={socialHeading}>Instagram</h2>
             <p>I am actively posting photographs and edits on my <a className='link' href="https://instagram.com/nevillebrem" target='_blank' rel='noreferrer'>Instagram</a>.</p>
 
             <div id='post' className='text-left border-2 border-gray-300 rounded-xl mt-4 mb-8 md:w-72 mx-auto'>
@@ -34,10 +35,10 @@ const Social = () => {
             </div>
           </div>
 
-          <div className='px-4 py-2 my-4 card basis-1/2'>
-            <h3 className="font-bold font-[Montserrat]">YouTube</h3>
+          <div className='py-2 my-4 card basis-1/2'>
+            <h2 className={socialHeading}>YouTube</h2>
             <p>I'm planning to start with YouTube Videos again, so here is my <a className='link' href="https://youtube.com/@nevbrm">YouTube</a> Channel.</p>
-            <iframe className='rounded-xl mx-auto my-16 border-2 border-gray-300 sm:w-[320px] sm:h-[180px] md:w-[640px]  md:h-[360px] w-64 h-36' src="https://www.youtube.com/embed/0FZmu6khOBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className='rounded-xl mx-auto my-8 border-2 border-gray-300 sm:w-[320px] sm:h-[180px] md:w-[640px] md:h-[360px] w-auto' src="https://www.youtube.com/embed/0FZmu6khOBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
     </div>
