@@ -9,14 +9,14 @@ const Projects = () => {
 
   return (
     <div id='projects' className='px-4 bg-white py-16'>
-        <h1 className='pb-16 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-diagram-project text-3xl md:text-4xl'></i> Projects</h1>
+        <h1 className='pb-16 uppercase font-bold text-center my-auto font-[Montserrat]'><i className='fa-solid fa-folder-open text-3xl md:text-4xl'></i> Projects</h1>
         
         <div className='md:mx-10 md:flex md:justify-center'>
             <div className={projectCard}>
                 <div>
                     <div className={projectFlex}>
                         <h3 className={projectHeading}>The[Creators] - NFT Homepage</h3>
-                        <h3><i className="fa-solid fa-palette"></i></h3>
+                        <h3><i className="fa-solid fa-image"></i></h3>
                     </div>
                     <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='link' target="_blank">Jan Lampert's</a> and my NFT Collections. You can find the Link down here 👇.</p>
                 </div>
@@ -29,7 +29,7 @@ const Projects = () => {
                 <div>
                     <div className={projectFlex}>
                         <h3 className={projectHeading}>Old Portfolio</h3>
-                        <h3><i className="fa-solid fa-circle-info"></i></h3>
+                        <h3><i className="fa-solid fa-user"></i></h3>
                     </div>
                     <p className='py-2'>This was my Portfolio before I learned ReactJS. I built it with Vanilla CSS and the only Library I was using, was <a href="https://fontawesome.com" target="_blank" rel='noreferrer' className='link' >Font Awesome</a>. I also used some SVG animations here and there.</p>
                 </div>

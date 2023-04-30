@@ -36,7 +36,7 @@ const Skills = () => {
                 <div className={skillCard}>
                     <h2 className={skillHeading}><i className="fa-solid fa-book"></i> Libraries</h2>
                     <ul className={skillList}>
-                        <li>Font Awesome</li>
+                        <li>Font Awesome <i class="fa-solid fa-icons"></i></li>
                         <li>Firebase</li>
                         <li>Framer Motion</li>
                     </ul>
@@ -46,10 +46,10 @@ const Skills = () => {
                     <h2 className={skillHeading}> <i className="fa-solid fa-screwdriver-wrench"></i> Tools</h2>
                     <ul className={skillList}>
                         <li>Visual Studio Code</li>
-                        <li>TablePlus</li>
+                        <li>Notion</li>
                         <li>Git</li>
+                        <li>TablePlus</li>
                         <li>Hostinger</li>
-                        <li>Netlify</li>
                     </ul>
                 </div>
             </div>

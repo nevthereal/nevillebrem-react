@@ -5,14 +5,14 @@ const About = () => {
     <div id='about' className='bg-white px-4 py-16'>
         <div className='justify-center md:mx-40'>
             <h1 className='mx-auto mb-8 uppercase font-bold text-center font-[Montserrat]'><i className='fa-solid fa-circle-info fa-bounce text-3xl md:text-4xl'></i> About</h1>
-            <p className='my-auto'>
-                My Name is Neville Brem and I am a student at the MNG Rämibühl in Zurich, Switzerland. I am 15 years old.
-                My life is focused on Tech, Computer Science and Content Creation since 2019. More down below.
-                <br />
-                <br />
-                My main Interests are Web Development, Crypto (especially NFTs), Content Creation, Music and I am playing the Piano. <br />
-                I love creating stuff and editing videos or photos. I am familiar with the Adobe Creative Cloud (more later).  <br />
-                I am planning to start with <a className='link' href="#social">YouTube</a>, so stay tuned, you don't want to miss that!
+            <p>
+              I am a Web Developer, Video Editor and Motion designer based in Zurich, Switzerland. I am 15 years old and I am a student at the <a href="https://mng.ch" className='link'>MNG Rämibühl</a>.
+            </p>
+            <p className='mt-2'>
+              I love creating content and sharing it. For this, I use products like Premiere Pro, After Effects, Illustrator and more from the Adobe Creative Cloud.
+            </p>
+            <p>
+              My other interests are tech in general, productivity, self-improvement, rowing and I play the piano.
             </p>
         </div>
     </div>
