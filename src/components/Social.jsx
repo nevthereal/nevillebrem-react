@@ -37,7 +37,7 @@ const Social = () => {
           <div className='px-4 py-2 my-4 card basis-1/2'>
             <h3 className="font-bold font-[Montserrat]">YouTube</h3>
             <p>I'm planning to start with YouTube Videos again, so here is my <a className='link' href="https://youtube.com/@nevbrm">YouTube</a> Channel.</p>
-            <iframe className='rounded-xl mx-auto my-16 border-2 border-gray-300 sm:w-[320px] sm:h-[180px] md:w-[640px]  md:h-[360px] w-64 h-36' src="https://www.youtube.com/embed/W3wbHMoED_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className='rounded-xl mx-auto my-16 border-2 border-gray-300 sm:w-[320px] sm:h-[180px] md:w-[640px]  md:h-[360px] w-64 h-36' src="https://www.youtube.com/embed/0FZmu6khOBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
     </div>
