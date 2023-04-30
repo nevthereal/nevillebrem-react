@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id='about' className='bg-white px-4 py-16'>
         <div className='justify-center md:mx-40'>
-            <h1 className='mx-auto mb-8 uppercase font-bold text-center font-[Montserrat]'><i className='fa-solid fa-circle-info text-3xl md:text-4xl'></i> About</h1>
+            <h1 className='mx-auto mb-8 uppercase font-bold text-center font-[Montserrat]'><i className='fa-solid fa-circle-info fa-bounce text-3xl md:text-4xl'></i> About</h1>
             <p className='my-auto'>
                 My Name is Neville Brem and I am a student at the MNG Rämibühl in Zurich, Switzerland. I am 15 years old.
                 My life is focused on Tech, Computer Science and Content Creation since 2019. More down below.

@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         <div id='form'>
             <div className='card p-2 text-black lg:w-1/2 lg:mx-auto lg:p-8'>
-                <h2 className='font-black uppercase lg:text-4xl font-[Montserrat]'><i className="fa-solid fa-hand rotate-[25deg] waving-hand"></i> Say Hello!</h2>
+                <h2 className='font-black uppercase lg:text-4xl font-[Montserrat]'><i className="fa-solid fa-hand fa-shake"></i> Say Hello!</h2>
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name='user_name' required className='border border-gray-400 rounded-lg p-1 mt-4 mb-2 w-11/12' placeholder='Your Name' />
                         <input type="text" name='user_email' required className='peer border border-gray-400 rounded-lg p-1 my-2 w-11/12' placeholder='Your Email' />
