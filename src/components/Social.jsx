@@ -1,6 +1,9 @@
 import React from 'react'
 import ig_profile_pic from '../assets/insta_post/profile_pic.jpeg'
 import postImage from '../assets/insta_post/post.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faVideo } from '@fortawesome/free-solid-svg-icons'
+import { faMessage, faPaperPlane, faThumbsUp } from '@fortawesome/free-regular-svg-icons'
 
 
 
@@ -12,7 +15,9 @@ const Social = () => {
 
   return (
     <div id='social' className='px-4 py-16 text-center'>
-        <h1 className='font-[Montserrat] font-bold text-white pb-16'><i class="fa-solid fa-video text-3xl md:text-4xl"></i> SOCIAL</h1>
+        <h1 className='font-[Montserrat] font-bold text-white pb-16'>
+          <FontAwesomeIcon icon={faVideo} /> SOCIAL
+        </h1>
 
         <div className='md:flex flex-wrap md:flex-nowrap gap-4 place-content-center md:w-[60%] mx-auto'>
           <div className='px-4 pb-2 my-4 card basis-1/2'>
@@ -28,9 +33,9 @@ const Social = () => {
                 <a href={postLink} target='_blank' rel='noreferrer'><img src={postImage} alt="grossmeunster zurich" /></a>
               </div>
               <div className='flex gap-4 m-2'>
-                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><i className="fa-regular fa-thumbs-up"></i></h3></a>
-                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><i className="fa-regular fa-message"></i></h3></a>
-                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><i className="fa-regular fa-paper-plane"></i></h3></a>
+                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><FontAwesomeIcon icon={faThumbsUp} /></h3></a>
+                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><FontAwesomeIcon icon={faMessage} /></h3></a>
+                  <a href={postLink} target='_blank' rel='noreferrer'><h3 className={instaIcon}><FontAwesomeIcon icon={faPaperPlane} /></h3></a>
                 </div>
             </div>
           </div>
