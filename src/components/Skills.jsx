@@ -40,7 +40,7 @@ const Skills = () => {
                 <div className={skillCard}>
                     <h2 className={skillHeading}><FontAwesomeIcon icon={faBook} /> Libraries</h2>
                     <ul className={skillList}>
-                        <li>Font Awesome <i class="fa-solid fa-icons"></i></li>
+                        <li>Font Awesome</li>
                         <li>Framer Motion</li>
                     </ul>
                 </div>

@@ -1,4 +1,5 @@
-import React, {useRef} from 'react'
+import React from 'react'
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHand, faShare } from '@fortawesome/free-solid-svg-icons';
@@ -30,7 +31,7 @@ const Contact = () => {
     return (
     <div id='contact' className='px-4 py-16 bg-white'>
          <div className=' pb-8'>
-            <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16' ref={ref}>
+            <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16'>
                 <FontAwesomeIcon icon={faShare}/> Contact
             </h1>
             
