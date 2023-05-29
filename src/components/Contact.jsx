@@ -1,7 +1,11 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHand, faShare } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
+
+    // Email Contact Form
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -18,14 +22,17 @@ const Contact = () => {
             document.getElementById("status-text").classList.add("text-red-500")
         });
     };
-    
+
+    // Tailwind Classes
     const ContactHeader = `uppercase font-black`
     const contactDivision = `p-6 card my-4 md:my-0`
 
     return (
     <div id='contact' className='px-4 py-16 bg-white'>
          <div className=' pb-8'>
-            <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16'><i className='fa-solid fa-share text-3xl md:text-4xl'></i> Contact</h1>
+            <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16' ref={ref}>
+                <FontAwesomeIcon icon={faShare}/> Contact
+            </h1>
             
             <div className='md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:mx-20'>
                 <div className={contactDivision}>
@@ -48,13 +55,13 @@ const Contact = () => {
         </div>
         <div id='form'>
             <div className='card p-2 text-black lg:w-1/2 lg:mx-auto lg:p-8'>
-                <h2 className='font-black uppercase lg:text-4xl font-[Montserrat]'><i className="fa-solid fa-hand fa-shake"></i> Say Hello!</h2>
+                <h2 className='font-black uppercase lg:text-4xl font-[Montserrat]'><FontAwesomeIcon icon={faHand} shake /> Say Hello!</h2>
                     <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" name='user_name' required className='border border-gray-400 rounded-lg p-1 mt-4 mb-2 w-11/12' placeholder='Your Name' />
-                        <input type="text" name='user_email' required className='peer border border-gray-400 rounded-lg p-1 my-2 w-11/12' placeholder='Your Email' />
-                        <textarea name="message" maxLength={750} className='border border-gray-400 rounded-lg p-1 my-2 w-11/12 h-32 resize-none' placeholder='Your Message (max 750)' />
+                        <input type="text" name='user_name' required className='border border-gray-400 rounded-3xl p-2 mt-4 mb-2 w-11/12' placeholder='Your Name' />
+                        <input type="text" name='user_email' required className='peer border border-gray-400 rounded-3xl p-2 my-2 w-11/12' placeholder='Your Email' />
+                        <textarea name="message" maxLength={750} className='border border-gray-400 rounded-3xl p-2 my-2 w-11/12 h-32 resize-none' placeholder='Your Message (max 750)' />
                         <br />
-                        <input type="submit" value="Send" className='rounded-lg bg-nevBlue px-1 py-2 font-bold lg:text-xl lg:px-2 lg:py-2 cursor-pointer duration-200 ease-in-out'/>
+                        <input type="submit" value="Send" className='rounded-3xl font-bold bg-nevBlue shadow-nevBlue/30 shadow-lg lg:text-xl md:py-4 py-2 md:px-6 px-3 cursor-pointer duration-200 ease-in-out'/>
                     </form>
                     <p id='status-text' className='font-bold my-2'></p>
             </div>
