@@ -14,7 +14,7 @@ const Projects = () => {
     const cardFlex = `flex justify-center gap-4 my-2`
 
     const {ref, inView} = useInView({
-        threshold: 1,
+        threshold: 0.3,
         triggerOnce: "True"
     });
     const animation = useAnimation();
@@ -40,8 +40,8 @@ const Projects = () => {
             <FontAwesomeIcon icon={faSave} /> Projects
         </h1>
         
-        <div className='md:mx-10 md:flex md:justify-center' >
-            <div className={projectCard} ref={ref}>
+        <div className='md:mx-10 md:flex md:justify-center' ref={ref} >
+            <div className={projectCard}>
                 <div>
                     <div className={projectFlex}>
                         <h3 className={projectHeading}>The[Creators] - NFT Homepage</h3>
@@ -54,7 +54,7 @@ const Projects = () => {
                 <a href="https://the-creators.netlify.app" target='blank'><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Website</motion.button></a>
                 </div>
             </div>
-            <div className={projectCard} ref={ref}>
+            <div className={projectCard}>
                 <div>
                     <div className={projectFlex}>
                         <h3 className={projectHeading}>Old Portfolio</h3>
@@ -67,7 +67,7 @@ const Projects = () => {
                     <a href="https://old.nevillebrem.com" target='blank'><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Website</motion.button></a>
                 </div>
             </div>
-            <div className={projectCard} ref={ref}>
+            <div className={projectCard}>
                 <div>
                     <div className={projectFlex}>
                         <h3 className={projectHeading}>Will's Brix - Online Store</h3>
