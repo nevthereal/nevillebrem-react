@@ -17,7 +17,7 @@ const Social = () => {
   const socialHeading = `font-bold font-[Montserrat] mt-4`
 
   const {ref, inView} = useInView({
-    threshold: 0.5,
+    threshold: 0.3,
     triggerOnce: "True"
   })
 
@@ -45,8 +45,8 @@ const Social = () => {
         </h1>
 
         
-        <div className='md:flex flex-wrap md:flex-nowrap gap-4 place-content-center md:w-[60%] mx-auto' ref={ref}>
-          <div className='px-4 pb-2 my-4 card basis-1/2'>
+        <div className='md:flex flex-wrap md:flex-nowrap gap-4 place-content-center md:w-[60%] mx-auto'>
+          <div className='px-4 pb-2 my-4 card basis-1/2' ref={ref}>
             <h2 className={socialHeading}>Instagram</h2>
             <p>I occasionally post stuff on <a className='link' href="https://instagram.com/nevillebrem" target='_blank' rel='noreferrer'>Instagram</a>.</p>
 
@@ -69,7 +69,7 @@ const Social = () => {
           <div className='my-4 card basis-1/2'>
             <h2 className={socialHeading}>YouTube</h2>
             <p>I try to upload once a week on my YouTube <a className='link' href="https://youtube.com/@nevbrm">YouTube</a> Channel.</p>
-            <motion.iframe animate={animation} className='rounded-xl mx-auto md:mx-4 mt-4 border-2 border-gray-300 sm:w-[320px] sm:h-[180px] md:w-[640px] md:h-[360px] w-auto' src="https://www.youtube.com/embed/0FZmu6khOBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></motion.iframe>
+            <motion.iframe animate={animation} className='rounded-xl mx-auto md:mx-4 my-4 border-2 border-gray-300 sm:w-[320px] sm:h-[180px] md:w-[640px] md:h-[360px] w-auto' src="https://www.youtube.com/embed/0FZmu6khOBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></motion.iframe>
           </div>
         </div>
     </div>

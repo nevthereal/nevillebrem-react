@@ -14,7 +14,7 @@ const Projects = () => {
     const cardFlex = `flex justify-center gap-4 my-2`
 
     const {ref, inView} = useInView({
-        threshold: 0.3,
+        threshold: 0.9,
         triggerOnce: "True"
     });
     const animation = useAnimation();
@@ -40,8 +40,8 @@ const Projects = () => {
             <FontAwesomeIcon icon={faSave} /> Projects
         </h1>
         
-        <div className='md:mx-10 md:flex md:justify-center' ref={ref} >
-            <div className={projectCard}>
+        <div className='md:mx-10 md:flex md:justify-center' >
+            <div className={projectCard} ref={ref}>
                 <div>
                     <div className={projectFlex}>
                         <h3 className={projectHeading}>The[Creators] - NFT Homepage</h3>
