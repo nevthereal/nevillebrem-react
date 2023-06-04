@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+        font-family: FredokaOne-Regular, 'Fredoka One';
+        font-size: 434.62px;
+      }
+
+      .cls-2 {
+        fill: #0057b7;
+      }
+
+      .cls-3 {
+        fill: gold;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m1080,540H0V150C0,67.16,67.16,0,150,0h780c82.84,0,150,67.16,150,150v390Z"/>
+  <path class="cls-3" d="m930,1080H150c-82.84,0-150-67.16-150-150v-390h1080v390c0,82.84-67.16,150-150,150Z"/>
+  <text class="cls-1" transform="translate(243.16 677.02)"><tspan x="0" y="0">NB</tspan></text>
+</svg>
