@@ -25,7 +25,6 @@ const Skills = () => {
         if(inView){
             slideRight.start({
                 x: 0,
-                opacity: 100,
                 transition: {
                     type: "spring", duration: 1, bounce: 0.2,
                 }
@@ -34,7 +33,6 @@ const Skills = () => {
         if(!inView){
             slideRight.start({
                 x: -200,
-                opacity: 0
             })
         }
     })
@@ -43,7 +41,6 @@ const Skills = () => {
         if(inView){
             slideLeft.start({
                 x: 0,
-                opacity: 100,
                 transition: {
                     type: "spring", duration: 1, bounce: 0.2,
                 }
@@ -52,10 +49,9 @@ const Skills = () => {
         if(!inView){
             slideLeft.start({
                 x: 200,
-                opacity: 0
             })
         }
-    })
+    }, [inView])
 
     return (
     <div id='skills' className='text-white px-4 py-16 text-center overflow-x-hidden'>
@@ -72,8 +68,6 @@ const Skills = () => {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>MySQL</li>
                     </ul>
                 </motion.div>
 
@@ -82,7 +76,6 @@ const Skills = () => {
                     <ul className={skillList}>
                         <li>Tailwind CSS</li>
                         <li>React (Routing, DOM)</li>
-                        <li>Django</li>
                     </ul>
                 </motion.div>
 
@@ -91,6 +84,7 @@ const Skills = () => {
                     <ul className={skillList}>
                         <li>Font Awesome</li>
                         <li>Framer Motion</li>
+                        <li>Stripe</li>
                     </ul>
                 </motion.div>
 
@@ -98,10 +92,9 @@ const Skills = () => {
                     <h2 className={skillHeading}><FontAwesomeIcon icon={faScrewdriverWrench} /> Tools</h2>
                     <ul className={skillList}>
                         <li>Visual Studio Code</li>
-                        <li>Notion</li>
-                        <li>Git</li>
-                        <li>TablePlus</li>
-                        <li>Hostinger</li>
+                        <li>Firebase (Auth, Firestore, Storage)</li>
+                        <li>Git & GitHub</li>
+                        <li>Netlify</li>
                     </ul>
                 </motion.div>
             </div>
