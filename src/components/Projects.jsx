@@ -12,8 +12,7 @@ const Projects = () => {
     const projectCard = `prj-card card group mx-auto`
     const projectFlex = `flex justify-between`
     const cardFlex = `flex justify-center gap-4 my-2`
-    const projectSubFlex = `flex flex-col flex-col-2 justify-between`
-    const projectGrayText = `text-gray-300`
+    const projectGrayText = `text-gray-500`
 
     const {ref, inView} = useInView({
         threshold: 0.9,
