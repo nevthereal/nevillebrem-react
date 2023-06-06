@@ -12,6 +12,8 @@ const Projects = () => {
     const projectCard = `prj-card card group mx-auto`
     const projectFlex = `flex justify-between`
     const cardFlex = `flex justify-center gap-4 my-2`
+    const projectSubFlex = `flex flex-col flex-col-2 justify-between`
+    const projectGrayText = `text-gray-300`
 
     const {ref, inView} = useInView({
         threshold: 0.9,
@@ -47,7 +49,8 @@ const Projects = () => {
                         <h3 className={projectHeading}>The[Creators] - NFT Homepage</h3>
                         <h3><FontAwesomeIcon icon={faImage} /></h3>
                     </div>
-                    <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='link' target="_blank">Jan Lampert's</a> and my NFT Collections.</p>
+                        <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='link' target="_blank">Jan Lampert's</a> and my NFT Collections.</p>
+                        <p className={projectGrayText}>Last Updated: 23 July 2023</p>
                 </div>
                 <div className={cardFlex}>
                 <a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
@@ -60,7 +63,8 @@ const Projects = () => {
                         <h3 className={projectHeading}>Old Portfolio</h3>
                         <h3><i className="fa-solid fa-user"></i><FontAwesomeIcon icon={faUser} /></h3>
                     </div>
-                    <p className='py-2'>This was my Portfolio before I learned ReactJS. I built it with Vanilla CSS and the only Library I was using, was <a href="https://fontawesome.com" target="_blank" rel='noreferrer' className='link' >Font Awesome</a>. I also used some SVG animations.</p>
+                        <p className='py-2'>This used to be my very first Personal Website. Back then, I used Vanilla CSS to style the Website. I got to play with some SVG Animations. I used the Font Awesome Icons back then, like I still do now!.</p>
+                        <p className={projectGrayText}>Last Updated: 26 June 2022</p>
                 </div>
                 <div className={cardFlex}>
                     <a href="https://github.com/nevthereal/personal-website-old" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
@@ -73,7 +77,8 @@ const Projects = () => {
                         <h3 className={projectHeading}>Will's Brix - Online Store</h3>
                         <h3><FontAwesomeIcon icon={faCartShopping} /></h3>
                     </div>
-                    <p className='py-2'>Me and a Friend wanted to sell our own LEGO Creations online, and I made this Website In August 2022, I reworked the whole Website with React.js and it was the first Time, I used React Routing for the multi-page system. I used <a href="https://tailwindcss.com" rel="noreferrer" target='_blank' className='link'>Tailwind CSS</a> to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='link'>Paypal Buttons</a>.</p>
+                        <p className='py-2'>Me and a Friend wanted to sell our own LEGO Creations online, so I made this Website with React. I used React Routing for the first time for a multi-page system. I used Tailwind CSS to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='link'>Paypal Buttons</a>. <br /> <span className='font-bold'>I am planning a huge update with a new design, Stripe integration and Firebase. Work in Progress though.</span></p>
+                        <p className={projectGrayText}>Last Updated: 27 May 2023</p>
                 </div>
                 <div className={cardFlex}>
                     <a href="https://github.com/nevthereal/willsbrix-v2" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
