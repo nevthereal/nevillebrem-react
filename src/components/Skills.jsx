@@ -85,6 +85,7 @@ const Skills = () => {
                         <li>Font Awesome</li>
                         <li>Framer Motion</li>
                         <li>Stripe</li>
+                        <li>ThreeJS</li>
                     </ul>
                 </motion.div>
 
