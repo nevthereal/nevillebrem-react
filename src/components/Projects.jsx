@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSave, faImage, faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faSave, faUser, faCartShopping, faNetworkWired } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
 
@@ -45,15 +45,14 @@ const Projects = () => {
             <div className={projectCard} ref={ref}>
                 <div>
                     <div className={projectFlex}>
-                        <h3 className={projectHeading}>The[Creators] - NFT Homepage</h3>
-                        <h3><FontAwesomeIcon icon={faImage} /></h3>
+                        <h3 className={projectHeading}>Blog</h3>
+                        <h3><FontAwesomeIcon icon={faNetworkWired} /></h3>
                     </div>
-                        <p className='py-2'>My first Project was a Homepage, which contains infos about <a href="https://www.janlampert.com" rel="noreferrer" className='link' target="_blank">Jan Lampert's</a> and my NFT Collections.</p>
-                        <p className={projectGrayText}>Last Updated: 23 July 2023</p>
+                        <p className='py-2'>This was my first Firebase project. I am constantly adding new stuff to the blog. Feel free to leave a post! There is a lot planned, so keep up to date.</p>
                 </div>
                 <div className={cardFlex}>
-                <a href="https://github.com/nevthereal/TheCreators" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
-                <a href="https://the-creators.netlify.app" target='blank'><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Website</motion.button></a>
+                <a href="https://github.com/nevthereal/blog" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
+                <a href="https://blog.nevillebrem.com" target='blank'><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Website</motion.button></a>
                 </div>
             </div>
             <div className={projectCard}>
@@ -63,7 +62,6 @@ const Projects = () => {
                         <h3><i className="fa-solid fa-user"></i><FontAwesomeIcon icon={faUser} /></h3>
                     </div>
                         <p className='py-2'>This used to be my very first Personal Website. Back then, I used Vanilla CSS to style the Website. I got to play with some SVG Animations. I used the Font Awesome Icons back then, like I still do now!.</p>
-                        <p className={projectGrayText}>Last Updated: 26 June 2022</p>
                 </div>
                 <div className={cardFlex}>
                     <a href="https://github.com/nevthereal/personal-website-old" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
@@ -73,11 +71,10 @@ const Projects = () => {
             <div className={projectCard}>
                 <div>
                     <div className={projectFlex}>
-                        <h3 className={projectHeading}>Will's Brix - Online Store</h3>
+                        <h3 className={projectHeading}>Will's Brix</h3>
                         <h3><FontAwesomeIcon icon={faCartShopping} /></h3>
                     </div>
-                        <p className='py-2'>Me and a Friend wanted to sell our own LEGO Creations online, so I made this Website with React. I used React Routing for the first time for a multi-page system. I used Tailwind CSS to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='link'>Paypal Buttons</a>. <br /> <span className='font-bold'>I am planning a huge update with a new design, Stripe integration and Firebase. Work in Progress though.</span></p>
-                        <p className={projectGrayText}>Last Updated: 27 May 2023</p>
+                        <p className='py-2'>Me and a Friend wanted to sell our own LEGO Creations online, so I made this Website with React. I used React Routing for the first time for a multi-page system. I used Tailwind CSS to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='link'>Paypal Buttons</a>.</p>
                 </div>
                 <div className={cardFlex}>
                     <a href="https://github.com/nevthereal/willsbrix-v2" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>

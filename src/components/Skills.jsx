@@ -75,7 +75,7 @@ const Skills = () => {
                     <h2 className={skillHeading}><FontAwesomeIcon icon={faCrop} /> Frameworks</h2>
                     <ul className={skillList}>
                         <li>Tailwind CSS</li>
-                        <li>React (Routing, DOM)</li>
+                        <li>React (Routing, DOM, Hooks, more)</li>
                     </ul>
                 </motion.div>
 
@@ -84,8 +84,7 @@ const Skills = () => {
                     <ul className={skillList}>
                         <li>Font Awesome</li>
                         <li>Framer Motion</li>
-                        <li>Stripe</li>
-                        <li>ThreeJS</li>
+                        <li>Typed.js</li>
                     </ul>
                 </motion.div>
 
@@ -93,7 +92,7 @@ const Skills = () => {
                     <h2 className={skillHeading}><FontAwesomeIcon icon={faScrewdriverWrench} /> Tools</h2>
                     <ul className={skillList}>
                         <li>Visual Studio Code</li>
-                        <li>Firebase (Auth, Firestore, Storage)</li>
+                        <li>Firebase (Auth, Firestore)</li>
                         <li>Git & GitHub</li>
                         <li>Netlify</li>
                     </ul>
