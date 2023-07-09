@@ -25,9 +25,9 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
