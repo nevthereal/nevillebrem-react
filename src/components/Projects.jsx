@@ -48,7 +48,7 @@ const Projects = () => {
                         <h3 className={projectHeading}>Blog</h3>
                         <h3><FontAwesomeIcon icon={faNetworkWired} /></h3>
                     </div>
-                        <p className='py-2'>This was my first Firebase project. I am constantly adding new stuff to the blog. Feel free to leave a post! There is a lot planned, so keep up to date.</p>
+                        <p className='py-2'>This was my first Firebase project. I wanted to create this blog to learn the Firebase basics. You can log in, create a post, delete it (if you are the creator) and more. I am planning to implement a like and perhaps even a comment function. But I have other projects that I am working on, so it won't be so soon.</p>
                 </div>
                 <div className={cardFlex}>
                 <a href="https://github.com/nevthereal/blog" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
@@ -61,10 +61,10 @@ const Projects = () => {
                         <h3 className={projectHeading}>Old Portfolio</h3>
                         <h3><i className="fa-solid fa-user"></i><FontAwesomeIcon icon={faUser} /></h3>
                     </div>
-                        <p className='py-2'>This used to be my very first Personal Website. Back then, I used Vanilla CSS to style the Website. I got to play with some SVG Animations. I used the Font Awesome Icons back then, like I still do now!.</p>
+                        <p className='py-2'>This was the predecessor of this website. I didn't use any Libraries or Frameworks back then, only Vanilla HTML and CSS. I played around with Animations and Tranisitions and also SVG Animations. I did use the Font Awesome icons already back then, which I still use now!</p>
                 </div>
                 <div className={cardFlex}>
-                    <a href="https://github.com/nevthereal/personal-website-old" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
+                    <a href="https://github.com/nevthereal/portfolio-old" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
                     <a href="https://old.nevillebrem.com" target='blank'><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Website</motion.button></a>
                 </div>
             </div>
@@ -74,10 +74,10 @@ const Projects = () => {
                         <h3 className={projectHeading}>Will's Brix</h3>
                         <h3><FontAwesomeIcon icon={faCartShopping} /></h3>
                     </div>
-                        <p className='py-2'>Me and a Friend wanted to sell our own LEGO Creations online, so I made this Website with React. I used React Routing for the first time for a multi-page system. I used Tailwind CSS to style the Project. For the payment system I used <a href="https://paypal.com/buttons" target='_blank' rel="noreferrer" className='link'>Paypal Buttons</a>.</p>
+                        <p className='py-2'>Me and a friend wanted to sell our LEGO Designs online, so I thought I'd code this little website. What used to be just a little project where I didn't put much effort in it, turned out to be one of my most complex projects ever! The implementation of many more advanced technologies and learning how to use Stripe with a cart got the website to the state where it is now!</p>
                 </div>
                 <div className={cardFlex}>
-                    <a href="https://github.com/nevthereal/willsbrix-v2" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
+                    <a href="https://github.com/nevthereal/willsbrix-v3" target="_blank" rel="noreferrer"><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Github</motion.button></a>
                     <a href="https://willsbrix.com" target='blank'><motion.button animate={animation} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className={projectButton}>Website</motion.button></a>
                 </div>
             </div>
