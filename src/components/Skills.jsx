@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faCode, faCrop, faScrewdriverWrench, faToolbox } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faCode, faCrop, faDesktop, faScrewdriverWrench, faServer, faToolbox } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from 'react'
 import { useAnimation, motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
@@ -63,28 +63,32 @@ const Skills = () => {
             <div className='md:grid md:mx-auto md:grid-cols-2 md:grid-rows-2 md:gap-4' ref={ref}>
                 
                 <motion.div animate={slideRight} className={skillCard}>
-                    <h2 className={skillHeading}><FontAwesomeIcon icon={faCode} /> Languages</h2>
+                    <h2 className={skillHeading}><FontAwesomeIcon icon={faDesktop} /> Frontend</h2>
                     <ul className={skillList}>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
+                        <li>Vite + ReactJS</li>
                     </ul>
                 </motion.div>
 
                 <motion.div animate={slideLeft} className={skillCard}>
-                    <h2 className={skillHeading}><FontAwesomeIcon icon={faCrop} /> Frameworks</h2>
+                    <h2 className={skillHeading}><FontAwesomeIcon icon={faServer} /> Backend</h2>
                     <ul className={skillList}>
-                        <li>Tailwind CSS</li>
-                        <li>React (Routing, DOM, Hooks, more)</li>
+                        <li>Express</li>
+                        <li>CORS</li>
                     </ul>
                 </motion.div>
 
                 <motion.div animate={slideRight} className={skillCard}>
                     <h2 className={skillHeading}><FontAwesomeIcon icon={faBook} /> Libraries</h2>
                     <ul className={skillList}>
-                        <li>Font Awesome</li>
                         <li>Framer Motion</li>
-                        <li>Typed.js</li>
+                        <li>typed.js</li>
+                        <li>Font Awesome</li>
+                        <li>Stripe</li>
+                        <li>Tailwind CSS</li>
+                        <li>Firebase</li>
                     </ul>
                 </motion.div>
 
@@ -92,8 +96,7 @@ const Skills = () => {
                     <h2 className={skillHeading}><FontAwesomeIcon icon={faScrewdriverWrench} /> Tools</h2>
                     <ul className={skillList}>
                         <li>Visual Studio Code</li>
-                        <li>Firebase (Auth, Firestore)</li>
-                        <li>Git & GitHub</li>
+                        <li>Git + GitHub</li>
                         <li>Netlify</li>
                     </ul>
                 </motion.div>
