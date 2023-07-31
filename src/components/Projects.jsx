@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSave,
   faUser,
-  faCartShopping,
   faNetworkWired,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWolfPackBattalion } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
   const projectHeading = `font-bold font-[Montserrat]`;
@@ -48,6 +48,50 @@ const Projects = () => {
       </h1>
 
       <div className='md:mx-10 md:flex md:justify-center'>
+        <div className={projectCard}>
+          <div>
+            <div className={projectFlex}>
+              <h3 className={projectHeading}>Wolffe Bricks</h3>
+              <h3>
+                <FontAwesomeIcon icon={faWolfPackBattalion} />
+              </h3>
+            </div>
+            <p className='py-2'>
+              Me and a friend wanted to sell our LEGO Designs online, so I
+              thought I'd code this little website. What used to be just a
+              little project where I didn't put much effort in it, turned out to
+              be one of my most complex projects ever! The implementation of
+              many more advanced technologies and learning how to use Stripe
+              with a cart got the website to the state where it is now!
+            </p>
+          </div>
+          <div className={cardFlex}>
+            <a
+              href='https://github.com/nevthereal/willsbrix-v3'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <motion.button
+                animate={animation}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className={projectButton}
+              >
+                Github
+              </motion.button>
+            </a>
+            <a href='https://willsbrix.com' target='blank'>
+              <motion.button
+                animate={animation}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className={projectButton}
+              >
+                Website
+              </motion.button>
+            </a>
+          </div>
+        </div>
         <div className={projectCard} ref={ref}>
           <div>
             <div className={projectFlex}>
@@ -124,50 +168,6 @@ const Projects = () => {
               </motion.button>
             </a>
             <a href='https://old.nevillebrem.com' target='blank'>
-              <motion.button
-                animate={animation}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className={projectButton}
-              >
-                Website
-              </motion.button>
-            </a>
-          </div>
-        </div>
-        <div className={projectCard}>
-          <div>
-            <div className={projectFlex}>
-              <h3 className={projectHeading}>Will's Brix</h3>
-              <h3>
-                <FontAwesomeIcon icon={faCartShopping} />
-              </h3>
-            </div>
-            <p className='py-2'>
-              Me and a friend wanted to sell our LEGO Designs online, so I
-              thought I'd code this little website. What used to be just a
-              little project where I didn't put much effort in it, turned out to
-              be one of my most complex projects ever! The implementation of
-              many more advanced technologies and learning how to use Stripe
-              with a cart got the website to the state where it is now!
-            </p>
-          </div>
-          <div className={cardFlex}>
-            <a
-              href='https://github.com/nevthereal/willsbrix-v3'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <motion.button
-                animate={animation}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className={projectButton}
-              >
-                Github
-              </motion.button>
-            </a>
-            <a href='https://willsbrix.com' target='blank'>
               <motion.button
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
