@@ -14,12 +14,11 @@ import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Skills = () => {
-  // tailwind classes
-  const skillCard = `text-black p-2 my-4 md:my-0 card`;
-  const skillHeading = `font-bold font-[Montserrat] my-2 mx-4`;
-  const skillList = `font-mono`;
-
-  // animation
+  const style = {
+    skillCard: `text-black p-2 my-4 md:my-0 card`,
+    skillHeading: `font-bold font-[Montserrat] my-2 mx-4`,
+    skillList: `font-mono`,
+  };
   const { ref, inView } = useInView({
     threshold: 0.4,
     triggerOnce: "True",
@@ -78,11 +77,11 @@ const Skills = () => {
           className='md:grid md:mx-auto md:grid-cols-2 md:grid-rows-2 md:gap-4'
           ref={ref}
         >
-          <motion.div animate={slideRight} className={skillCard}>
-            <h2 className={skillHeading}>
+          <motion.div animate={slideRight} className={style.skillCard}>
+            <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faDesktop} /> Frontend
             </h2>
-            <ul className={skillList}>
+            <ul className={style.skillList}>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -90,21 +89,21 @@ const Skills = () => {
             </ul>
           </motion.div>
 
-          <motion.div animate={slideLeft} className={skillCard}>
-            <h2 className={skillHeading}>
+          <motion.div animate={slideLeft} className={style.skillCard}>
+            <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faServer} /> Backend
             </h2>
-            <ul className={skillList}>
+            <ul className={style.skillList}>
               <li>Express</li>
               <li>CORS</li>
             </ul>
           </motion.div>
 
-          <motion.div animate={slideRight} className={skillCard}>
-            <h2 className={skillHeading}>
+          <motion.div animate={slideRight} className={style.skillCard}>
+            <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faBook} /> Libraries
             </h2>
-            <ul className={skillList}>
+            <ul className={style.skillList}>
               <li>Framer Motion</li>
               <li>typed.js</li>
               <li>Font Awesome</li>
@@ -114,11 +113,11 @@ const Skills = () => {
             </ul>
           </motion.div>
 
-          <motion.div animate={slideLeft} className={skillCard}>
-            <h2 className={skillHeading}>
+          <motion.div animate={slideLeft} className={style.skillCard}>
+            <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faScrewdriverWrench} /> Tools
             </h2>
-            <ul className={skillList}>
+            <ul className={style.skillList}>
               <li>Visual Studio Code</li>
               <li>Git + GitHub</li>
               <li>Netlify</li>

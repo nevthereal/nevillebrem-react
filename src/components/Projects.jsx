@@ -11,12 +11,13 @@ import {
 import { faWolfPackBattalion } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
-  const projectHeading = `font-bold font-[Montserrat]`;
-  const projectButton = `mx-auto rounded-3xl font-bold bg-nevBlue shadow-nevBlue/30 shadow-lg md:py-4 py-2 md:px-6 px-3 text-xl`;
-  const projectCard = `prj-card card group mx-auto`;
-  const projectFlex = `flex justify-between`;
-  const cardFlex = `flex justify-center gap-4 my-2`;
-  const projectGrayText = `text-gray-500`;
+  const style = {
+    projectHeading: `font-bold font-[Montserrat]`,
+    projectButton: `mx-auto rounded-3xl font-bold bg-nevBlue shadow-nevBlue/30 shadow-lg md:py-4 py-2 md:px-6 px-3 text-xl`,
+    projectCard: `prj-card card group mx-auto`,
+    projectFlex: `flex justify-between`,
+    cardFlex: `flex justify-center gap-4 my-2`,
+  };
 
   const { ref, inView } = useInView({
     threshold: 0.9,
@@ -48,10 +49,10 @@ const Projects = () => {
       </h1>
 
       <div className='md:mx-10 md:flex md:justify-center'>
-        <div className={projectCard}>
+        <div className={style.projectCard}>
           <div>
-            <div className={projectFlex}>
-              <h3 className={projectHeading}>Wolffe Bricks</h3>
+            <div className={style.projectFlex}>
+              <h3 className={style.projectHeading}>Wolffe Bricks</h3>
               <h3>
                 <FontAwesomeIcon icon={faWolfPackBattalion} />
               </h3>
@@ -66,7 +67,7 @@ const Projects = () => {
               Unfortunately, the project has been discontinued...
             </p>
           </div>
-          <div className={cardFlex}>
+          <div className={style.cardFlex}>
             <a
               href='https://github.com/nevthereal/willsbrix-v3'
               target='_blank'
@@ -76,7 +77,7 @@ const Projects = () => {
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={projectButton}
+                className={style.projectButton}
               >
                 Github
               </motion.button>
@@ -86,17 +87,17 @@ const Projects = () => {
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={projectButton}
+                className={style.projectButton}
               >
                 Website
               </motion.button>
             </a>
           </div>
         </div>
-        <div className={projectCard} ref={ref}>
+        <div className={style.projectCard} ref={ref}>
           <div>
-            <div className={projectFlex}>
-              <h3 className={projectHeading}>Blog</h3>
+            <div className={style.projectFlex}>
+              <h3 className={style.projectHeading}>Blog</h3>
               <h3>
                 <FontAwesomeIcon icon={faNetworkWired} />
               </h3>
@@ -109,7 +110,7 @@ const Projects = () => {
               other projects that I am working on, so it won't be so soon.
             </p>
           </div>
-          <div className={cardFlex}>
+          <div className={style.cardFlex}>
             <a
               href='https://github.com/nevthereal/blog'
               target='_blank'
@@ -119,7 +120,7 @@ const Projects = () => {
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={projectButton}
+                className={style.projectButton}
               >
                 Github
               </motion.button>
@@ -129,17 +130,17 @@ const Projects = () => {
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={projectButton}
+                className={style.projectButton}
               >
                 Website
               </motion.button>
             </a>
           </div>
         </div>
-        <div className={projectCard}>
+        <div className={style.projectCard}>
           <div>
-            <div className={projectFlex}>
-              <h3 className={projectHeading}>FileHub</h3>
+            <div className={style.projectFlex}>
+              <h3 className={style.projectHeading}>FileHub</h3>
               <h3>
                 <i className='fa-solid fa-user'></i>
                 <FontAwesomeIcon icon={faUser} />
@@ -151,7 +152,7 @@ const Projects = () => {
               reboot soon!
             </p>
           </div>
-          <div className={cardFlex}>
+          <div className={style.cardFlex}>
             <a
               href='https://github.com/nevthereal/school_pdf_filehub'
               target='_blank'
@@ -161,7 +162,7 @@ const Projects = () => {
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={projectButton}
+                className={style.projectButton}
               >
                 Github
               </motion.button>
@@ -171,7 +172,7 @@ const Projects = () => {
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={projectButton}
+                className={style.projectButton}
               >
                 Website
               </motion.button>

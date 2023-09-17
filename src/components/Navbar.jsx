@@ -9,7 +9,6 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  // xmark bars
 
   return (
     <div className='flex justify-between items-center p-4 text-white h-24'>

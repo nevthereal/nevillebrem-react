@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVideo } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
+const style = {
+  icon: `text-4xl hover:bg-gray-200 border-2 hover:border-gray-300 p-2 aspect-square rounded-full duration-200 border-gray-100 hover:animate-pulse`,
+};
+
 const Social = () => {
   return (
     <div id='social' className='px-4 py-16 text-center'>
@@ -13,7 +17,9 @@ const Social = () => {
         <div className='card p-4'>
           <div className='flex justify-between'>
             <h2 className='font-[Montserrat] font-bold'>Instagram</h2>
-            <FontAwesomeIcon className='text-4xl' icon={faInstagram} />
+            <a href='https://instagram.com/nevillebrem' target='_blank'>
+              <FontAwesomeIcon className={style.icon} icon={faInstagram} />
+            </a>
           </div>
           <p className='text-left mt-2'>
             I post photography and rowing stuff on my Instagram. Take a look at
@@ -23,7 +29,9 @@ const Social = () => {
         <div className='card p-4'>
           <div className='flex justify-between'>
             <h2 className='font-[Montserrat] font-bold'>Twitter</h2>
-            <FontAwesomeIcon className='text-4xl' icon={faXTwitter} />
+            <a href='https://twitter.com/BremNeville' target='_blank'>
+              <FontAwesomeIcon className={style.icon} icon={faXTwitter} />
+            </a>
           </div>
           <p className='text-left mt-2'>
             I try to be more active on Twitter, but follow me to keep up to date

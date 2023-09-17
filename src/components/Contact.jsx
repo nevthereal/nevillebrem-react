@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand, faShare } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
-  const ContactHeader = `uppercase font-black`;
-  const contactDivision = `p-6 card my-4 md:my-0`;
+  const style = {
+    contactHeader: `uppercase font-black`,
+    contactDivision: `p-6 card my-4 md:my-0`,
+  };
 
   return (
     <div id='contact' className='px-4 py-16 bg-white'>
@@ -14,8 +16,8 @@ const Contact = () => {
         </h1>
 
         <div className='md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:mx-20'>
-          <div className={contactDivision}>
-            <h2 className={ContactHeader}>Email:</h2>
+          <div className={style.contactDivision}>
+            <h2 className={style.contactHeader}>Email:</h2>
             <p>
               Contact me on{" "}
               <a href='mailto:contact@nevillebrem.com' className='link'>
@@ -23,8 +25,8 @@ const Contact = () => {
               </a>
             </p>
           </div>
-          <div className={contactDivision}>
-            <h2 className={ContactHeader}>Twitter:</h2>
+          <div className={style.contactDivision}>
+            <h2 className={style.contactHeader}>Twitter:</h2>
             <p>
               Write me a DM at{" "}
               <a href='https://twitter.com/bremneville' className='link'>
@@ -32,8 +34,8 @@ const Contact = () => {
               </a>
             </p>
           </div>
-          <div className={contactDivision}>
-            <h2 className={ContactHeader}>Github:</h2>
+          <div className={style.contactDivision}>
+            <h2 className={style.contactHeader}>Github:</h2>
             <p>
               Take a look at my Repositories:{" "}
               <a href='https://github.com/nevthereal' className='link'>
@@ -41,8 +43,8 @@ const Contact = () => {
               </a>
             </p>
           </div>
-          <div className={contactDivision}>
-            <h2 className={ContactHeader}>Fiverr:</h2>
+          <div className={style.contactDivision}>
+            <h2 className={style.contactHeader}>Fiverr:</h2>
             <p>
               Hire me on{" "}
               <a href='https://www.fiverr.com/nevthereal' className='link'>

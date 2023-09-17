@@ -43,7 +43,7 @@ h3{
 }
 
 a.link {
-    @apply text-nevBlue underline font-bold;
+    @apply text-nevBlue underline font-bold hover:animate-pulse;
 }
 
 .important {
