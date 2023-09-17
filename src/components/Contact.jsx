@@ -42,14 +42,11 @@ const Contact = () => {
             </p>
           </div>
           <div className={contactDivision}>
-            <h2 className={ContactHeader}>Upwork:</h2>
+            <h2 className={ContactHeader}>Fiverr:</h2>
             <p>
               Hire me on{" "}
-              <a
-                href='https://www.upwork.com/freelancers/~01a24589aa24a17b0e'
-                className='link'
-              >
-                Upwork
+              <a href='https://www.fiverr.com/nevthereal' className='link'>
+                Fiverr
               </a>
             </p>
           </div>
