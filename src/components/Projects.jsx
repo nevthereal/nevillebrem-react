@@ -62,7 +62,8 @@ const Projects = () => {
               little project where I didn't put much effort in it, turned out to
               be one of my most complex projects ever! The implementation of
               many more advanced technologies and learning how to use Stripe
-              with a cart got the website to the state where it is now!
+              with a cart got the website to the state where it is now.
+              Unfortunately, the project has been discontinued...
             </p>
           </div>
           <div className={cardFlex}>
@@ -138,23 +139,21 @@ const Projects = () => {
         <div className={projectCard}>
           <div>
             <div className={projectFlex}>
-              <h3 className={projectHeading}>Old Portfolio</h3>
+              <h3 className={projectHeading}>FileHub</h3>
               <h3>
                 <i className='fa-solid fa-user'></i>
                 <FontAwesomeIcon icon={faUser} />
               </h3>
             </div>
             <p className='py-2'>
-              This was the predecessor of this website. I didn't use any
-              Libraries or Frameworks back then, only Vanilla HTML and CSS. I
-              played around with Animations and Tranisitions and also SVG
-              Animations. I did use the Font Awesome icons already back then,
-              which I still use now!
+              A little project where I want to upload summaries I write of my
+              class. I am currently rebuilding it with Firebase, so expect a
+              reboot soon!
             </p>
           </div>
           <div className={cardFlex}>
             <a
-              href='https://github.com/nevthereal/portfolio-old'
+              href='https://github.com/nevthereal/school_pdf_filehub'
               target='_blank'
               rel='noreferrer'
             >
@@ -167,7 +166,7 @@ const Projects = () => {
                 Github
               </motion.button>
             </a>
-            <a href='https://old.nevillebrem.com' target='blank'>
+            <a href='https://1h-files.netlify.app' target='blank'>
               <motion.button
                 animate={animation}
                 whileHover={{ scale: 1.1 }}
