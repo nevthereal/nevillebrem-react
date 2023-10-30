@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand, faShare } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
+import axios from "axios";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 
 const Contact = () => {
   const style = {
@@ -53,6 +58,102 @@ const Contact = () => {
             </p>
           </div>
         </div>
+        <Form />
+      </div>
+    </div>
+  );
+};
+
+const Form = () => {
+  const [submitMessage, setSubmitMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const formSchema = z.object({
+    name: z.string().min(3, "That's really your name?"),
+    email: z.string().email(),
+    message: z.string().min(3, "Your message is too short..."),
+  });
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm({
+    resolver: zodResolver(formSchema),
+  });
+
+  const onSubmit = async (data) => {
+    setLoading(true);
+    const inputs = {
+      service_id: "service_m5dhn7u",
+      template_id: "template_0ea3ewq",
+      user_id: "0tvqgP1sw-5fQmDto",
+      template_params: {
+        user_name: data.name,
+        user_email: data.email,
+        message: data.message,
+      },
+    };
+
+    axios
+      .post("https://api.emailjs.com/api/v1.0/email/send", inputs, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then(function () {
+        setSubmitMessage("Your Email got sent");
+        setLoading(false);
+        reset();
+      })
+      .catch(function (error) {
+        setSubmitMessage(error);
+      });
+  };
+
+  return (
+    <div className='flex mt-8'>
+      <div className='mx-auto card p-4 md:w-[75%] w-[90%]'>
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <h1 className='font-black'>
+            <FontAwesomeIcon icon={faHand} className=' rotate-45' /> Get in
+            touch!
+          </h1>
+          <p className='mt-4 text-gray-600 font-bold text-lg'>Your Name</p>
+          <input
+            {...register("name")}
+            type='name'
+            className='text-xl w-full p-2 rounded-xl'
+          />
+          {errors.name && <p className='text-red-500'>{errors.name.message}</p>}
+          <p className='mt-2 text-gray-600 font-bold text-lg'>Your Email</p>
+          <input
+            {...register("email")}
+            type='email'
+            className='text-xl w-full p-2 rounded-xl'
+          />
+          {errors.email && (
+            <p className='text-red-500'>{errors.email.message}</p>
+          )}
+          <p className='mt-2 text-gray-600 font-bold text-lg'>Message</p>
+          <textarea
+            {...register("message")}
+            rows='10'
+            className='w-full p-2 rounded-xl resize-none'
+          ></textarea>
+          {errors.message && (
+            <p className='text-red-500'>{errors.message.message}</p>
+          )}
+          <motion.button
+            type='submit'
+            className={
+              "font-serif font-black p-2 rounded-xl text-xl mt-2 bg-nevBlue disabled:bg-gray-300 disabled:text-gray-700"
+            }
+          >
+            {!loading ? <p>Send!</p> : <p>Loading...</p>}
+          </motion.button>
+          {submitMessage && <p className='mt-2 font-bold'>{submitMessage}</p>}
+        </form>
       </div>
     </div>
   );
