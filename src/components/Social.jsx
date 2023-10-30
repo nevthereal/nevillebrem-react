@@ -1,7 +1,7 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVideo } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faTwitter } from '@fortawesome/fontawesome-free-brands';
 
 const style = {
   card: `card p-4 my-4 md:my-0`,
@@ -31,7 +31,7 @@ const Social = () => {
           <div className='flex justify-between'>
             <h2 className='font-[Montserrat] font-bold'>Twitter</h2>
             <a href='https://twitter.com/BremNeville' target='_blank'>
-              <FontAwesomeIcon className={style.icon} icon={faXTwitter} />
+              <FontAwesomeIcon className={style.icon} icon={faTwitter} />
             </a>
           </div>
           <p className='text-left mt-2'>
