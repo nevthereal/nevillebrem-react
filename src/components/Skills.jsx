@@ -9,9 +9,7 @@ import {
   faServer,
   faToolbox,
 } from "@fortawesome/free-solid-svg-icons";
-import { useEffect } from "react";
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const style = {
@@ -19,49 +17,6 @@ const Skills = () => {
     skillHeading: `font-bold font-[Montserrat] my-2 mx-4`,
     skillList: `font-mono`,
   };
-  const { ref, inView } = useInView({
-    threshold: 0.4,
-    triggerOnce: "True",
-  });
-
-  const slideRight = useAnimation();
-  const slideLeft = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      slideRight.start({
-        x: 0,
-        transition: {
-          type: "spring",
-          duration: 1,
-          bounce: 0.2,
-        },
-      });
-    }
-    if (!inView) {
-      slideRight.start({
-        x: -200,
-      });
-    }
-  });
-
-  useEffect(() => {
-    if (inView) {
-      slideLeft.start({
-        x: 0,
-        transition: {
-          type: "spring",
-          duration: 1,
-          bounce: 0.2,
-        },
-      });
-    }
-    if (!inView) {
-      slideLeft.start({
-        x: 200,
-      });
-    }
-  }, [inView]);
 
   return (
     <div
@@ -73,11 +28,20 @@ const Skills = () => {
           <FontAwesomeIcon icon={faToolbox} /> Skills
         </h1>
 
-        <div
-          className='md:grid md:mx-auto md:grid-cols-2 md:grid-rows-2 md:gap-4'
-          ref={ref}
-        >
-          <motion.div animate={slideRight} className={style.skillCard}>
+        <div className='md:grid md:mx-auto md:grid-cols-2 md:grid-rows-2 md:gap-4'>
+          <motion.div
+            initial={{ x: -200 }}
+            whileInView={{
+              x: 0,
+              transition: {
+                type: "spring",
+                duration: 1,
+                bounce: 0.2,
+              },
+            }}
+            viewport={{ once: true }}
+            className={style.skillCard}
+          >
             <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faDesktop} /> Frontend
             </h2>
@@ -89,7 +53,19 @@ const Skills = () => {
             </ul>
           </motion.div>
 
-          <motion.div animate={slideLeft} className={style.skillCard}>
+          <motion.div
+            initial={{ x: 200 }}
+            whileInView={{
+              x: 0,
+              transition: {
+                type: "spring",
+                duration: 1,
+                bounce: 0.2,
+              },
+            }}
+            viewport={{ once: true }}
+            className={style.skillCard}
+          >
             <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faServer} /> Backend
             </h2>
@@ -99,7 +75,19 @@ const Skills = () => {
             </ul>
           </motion.div>
 
-          <motion.div animate={slideRight} className={style.skillCard}>
+          <motion.div
+            initial={{ x: -200 }}
+            whileInView={{
+              x: 0,
+              transition: {
+                type: "spring",
+                duration: 1,
+                bounce: 0.2,
+              },
+            }}
+            viewport={{ once: true }}
+            className={style.skillCard}
+          >
             <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faBook} /> Libraries
             </h2>
@@ -113,7 +101,19 @@ const Skills = () => {
             </ul>
           </motion.div>
 
-          <motion.div animate={slideLeft} className={style.skillCard}>
+          <motion.div
+            initial={{ x: 200 }}
+            whileInView={{
+              x: 0,
+              transition: {
+                type: "spring",
+                duration: 1,
+                bounce: 0.2,
+              },
+            }}
+            viewport={{ once: true }}
+            className={style.skillCard}
+          >
             <h2 className={style.skillHeading}>
               <FontAwesomeIcon icon={faScrewdriverWrench} /> Tools
             </h2>

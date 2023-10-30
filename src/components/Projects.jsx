@@ -1,7 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSave,
@@ -18,29 +16,6 @@ const Projects = () => {
     projectFlex: `flex justify-between`,
     cardFlex: `flex justify-center gap-4 my-2`,
   };
-
-  const { ref, inView } = useInView({
-    threshold: 0.9,
-    triggerOnce: "True",
-  });
-  const animation = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        y: 0,
-        opacity: 100,
-        transition: {
-          type: "spring",
-          duration: "0.7",
-          bounce: 0.3,
-        },
-      });
-    }
-    if (!inView) {
-      animation.start({ y: 100, opacity: 50 });
-    }
-  }, [inView]);
 
   return (
     <div id='projects' className='px-4 bg-white py-16'>
@@ -74,7 +49,17 @@ const Projects = () => {
               rel='noreferrer'
             >
               <motion.button
-                animate={animation}
+                initial={{ y: 100, opacity: 50 }}
+                whileInView={{
+                  y: 0,
+                  opacity: 100,
+                  transition: {
+                    type: "spring",
+                    duration: "0.7",
+                    bounce: 0.3,
+                  },
+                }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className={style.projectButton}
@@ -84,7 +69,17 @@ const Projects = () => {
             </a>
             <a href='https://willsbrix.com' target='blank'>
               <motion.button
-                animate={animation}
+                initial={{ y: 100, opacity: 50 }}
+                whileInView={{
+                  y: 0,
+                  opacity: 100,
+                  transition: {
+                    type: "spring",
+                    duration: "0.7",
+                    bounce: 0.3,
+                  },
+                }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className={style.projectButton}
@@ -94,7 +89,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className={style.projectCard} ref={ref}>
+        <div className={style.projectCard}>
           <div>
             <div className={style.projectFlex}>
               <h3 className={style.projectHeading}>Blog</h3>
@@ -117,7 +112,17 @@ const Projects = () => {
               rel='noreferrer'
             >
               <motion.button
-                animate={animation}
+                initial={{ y: 100, opacity: 50 }}
+                whileInView={{
+                  y: 0,
+                  opacity: 100,
+                  transition: {
+                    type: "spring",
+                    duration: "0.7",
+                    bounce: 0.3,
+                  },
+                }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className={style.projectButton}
@@ -127,7 +132,17 @@ const Projects = () => {
             </a>
             <a href='https://blog.nevillebrem.com' target='blank'>
               <motion.button
-                animate={animation}
+                initial={{ y: 100, opacity: 50 }}
+                whileInView={{
+                  y: 0,
+                  opacity: 100,
+                  transition: {
+                    type: "spring",
+                    duration: "0.7",
+                    bounce: 0.3,
+                  },
+                }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className={style.projectButton}
@@ -159,7 +174,17 @@ const Projects = () => {
               rel='noreferrer'
             >
               <motion.button
-                animate={animation}
+                initial={{ y: 100, opacity: 50 }}
+                whileInView={{
+                  y: 0,
+                  opacity: 100,
+                  transition: {
+                    type: "spring",
+                    duration: "0.7",
+                    bounce: 0.3,
+                  },
+                }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className={style.projectButton}
@@ -169,7 +194,17 @@ const Projects = () => {
             </a>
             <a href='https://1h-files.netlify.app' target='blank'>
               <motion.button
-                animate={animation}
+                initial={{ y: 100, opacity: 50 }}
+                whileInView={{
+                  y: 0,
+                  opacity: 100,
+                  transition: {
+                    type: "spring",
+                    duration: "0.7",
+                    bounce: 0.3,
+                  },
+                }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className={style.projectButton}
