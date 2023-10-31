@@ -1,12 +1,12 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSave,
   faUser,
   faNetworkWired,
-} from '@fortawesome/free-solid-svg-icons';
-import { faWolfPackBattalion } from '@fortawesome/fontawesome-free-brands';
+} from "@fortawesome/free-solid-svg-icons";
+import { faWolfPackBattalion } from "@fortawesome/fontawesome-free-brands";
 
 const Projects = () => {
   const style = {
@@ -54,8 +54,8 @@ const Projects = () => {
                   y: 0,
                   opacity: 100,
                   transition: {
-                    type: 'spring',
-                    duration: '0.7',
+                    type: "spring",
+                    duration: "0.7",
                     bounce: 0.3,
                   },
                 }}
@@ -74,8 +74,8 @@ const Projects = () => {
                   y: 0,
                   opacity: 100,
                   transition: {
-                    type: 'spring',
-                    duration: '0.7',
+                    type: "spring",
+                    duration: "0.7",
                     bounce: 0.3,
                   },
                 }}
@@ -117,8 +117,8 @@ const Projects = () => {
                   y: 0,
                   opacity: 100,
                   transition: {
-                    type: 'spring',
-                    duration: '0.7',
+                    type: "spring",
+                    duration: "0.7",
                     bounce: 0.3,
                   },
                 }}
@@ -137,8 +137,8 @@ const Projects = () => {
                   y: 0,
                   opacity: 100,
                   transition: {
-                    type: 'spring',
-                    duration: '0.7',
+                    type: "spring",
+                    duration: "0.7",
                     bounce: 0.3,
                   },
                 }}
@@ -155,7 +155,7 @@ const Projects = () => {
         <div className={style.projectCard}>
           <div>
             <div className={style.projectFlex}>
-              <h3 className={style.projectHeading}>FileHub</h3>
+              <h3 className={style.projectHeading}>Files App</h3>
               <h3>
                 <i className='fa-solid fa-user'></i>
                 <FontAwesomeIcon icon={faUser} />
@@ -179,8 +179,8 @@ const Projects = () => {
                   y: 0,
                   opacity: 100,
                   transition: {
-                    type: 'spring',
-                    duration: '0.7',
+                    type: "spring",
+                    duration: "0.7",
                     bounce: 0.3,
                   },
                 }}
@@ -199,8 +199,8 @@ const Projects = () => {
                   y: 0,
                   opacity: 100,
                   transition: {
-                    type: 'spring',
-                    duration: '0.7',
+                    type: "spring",
+                    duration: "0.7",
                     bounce: 0.3,
                   },
                 }}
