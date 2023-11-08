@@ -17,7 +17,6 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Social />
       <Contact />
       <Footer />
     </div>

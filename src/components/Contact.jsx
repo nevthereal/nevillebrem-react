@@ -14,13 +14,12 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='px-4 py-16 bg-white'>
+    <div id='contact' className='px-4 py-16'>
       <div className=' pb-8'>
-        <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16'>
+        <h1 className='mx-auto uppercase font-bold text-center my-auto font-[Montserrat] pb-16 text-white'>
           <FontAwesomeIcon icon={faShare} /> Contact
         </h1>
-
-        <div className='md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:mx-20'>
+        <div className='md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:w-[75%] w-[90%] mx-auto'>
           <div className={style.contactDivision}>
             <h2 className={style.contactHeader}>Email:</h2>
             <p>
@@ -102,7 +101,7 @@ const Form = () => {
         },
       })
       .then(function () {
-        setSubmitMessage("Your Email got sent");
+        setSubmitMessage("Your Email was sent successfully");
         setLoading(false);
         reset();
       })
@@ -112,13 +111,16 @@ const Form = () => {
   };
 
   return (
-    <div className='flex mt-8'>
+    <div className='flex mt-4'>
       <div className='mx-auto card p-4 md:w-[75%] w-[90%]'>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <h1 className='font-black'>
-            <FontAwesomeIcon icon={faHand} className=' rotate-45' /> Get in
-            touch!
-          </h1>
+          <h2 className='font-black'>
+            <FontAwesomeIcon
+              icon={faHand}
+              className='rotate-12 hover:rotate-[60deg] ease-in-out duration-200'
+            />{" "}
+            Get in touch!
+          </h2>
           <p className='mt-4 text-gray-600 font-bold text-lg'>Your Name</p>
           <input
             {...register("name")}

@@ -8,15 +8,9 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(professions.current, {
-      strings: [
-        "Web Developer",
-        "Video Editor",
-        "Motion Designer",
-        "Content Creator",
-      ],
+      strings: ["Web Developer", "Tech Enthusiast", "Digital Creator"],
       typeSpeed: 80,
       backSpeed: 60,
-      loop: true,
     });
 
     return () => {
@@ -27,10 +21,15 @@ const Hero = () => {
   return (
     <div className='h-screen px-4 text-white wave-white'>
       <div className='mt-[-6rem] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='md:text-lg mx-auto font-bold uppercase text-nevBlue'>
+        <p className='md:text-lg mx-auto font-bold uppercase text-white'>
           Hello World. my name is
         </p>
-        <p className='text-5xl md:text-6xl font-bold'>Neville Brem</p>
+        <div className='relative mx-auto'>
+          <div className='absolute inset-0 bg-nevBlue blur-xl rounded-full opacity-50 ease-in-out duration-200'></div>
+          <p className='text-nevBlue relative text-5xl md:text-6xl font-bold'>
+            Neville Brem
+          </p>
+        </div>
         <p className='text-gray-400 font-bold text-lg md:text-xl'>
           I am a <span ref={professions}></span>{" "}
         </p>

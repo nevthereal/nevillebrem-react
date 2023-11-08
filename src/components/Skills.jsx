@@ -27,102 +27,109 @@ const Skills = () => {
         <h1 className='font-[Montserrat] font-bold uppercase md:mx-auto my-auto'>
           <FontAwesomeIcon icon={faToolbox} /> Skills
         </h1>
-
-        <div className='md:grid md:mx-auto md:grid-cols-2 md:grid-rows-2 md:gap-4'>
+        <div className='relative md:mx-auto'>
           <motion.div
-            initial={{ x: -200 }}
-            whileInView={{
-              x: 0,
-              transition: {
-                type: "spring",
-                duration: 1,
-                bounce: 0.2,
-              },
-            }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 0.5 }}
             viewport={{ once: true }}
-            className={style.skillCard}
-          >
-            <h2 className={style.skillHeading}>
-              <FontAwesomeIcon icon={faDesktop} /> Frontend
-            </h2>
-            <ul className={style.skillList}>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Vite + ReactJS</li>
-            </ul>
-          </motion.div>
+            className='absolute inset-0 bg-white blur-2xl rounded-3xl'
+          ></motion.div>
+          <div className='relative md:grid  md:grid-cols-2 md:grid-rows-2 md:gap-4'>
+            <motion.div
+              initial={{ x: -200 }}
+              whileInView={{
+                x: 0,
+                transition: {
+                  type: "spring",
+                  duration: 1,
+                  bounce: 0.2,
+                },
+              }}
+              viewport={{ once: true }}
+              className={style.skillCard}
+            >
+              <h2 className={style.skillHeading}>
+                <FontAwesomeIcon icon={faDesktop} /> Frontend
+              </h2>
+              <ul className={style.skillList}>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+              </ul>
+            </motion.div>
 
-          <motion.div
-            initial={{ x: 200 }}
-            whileInView={{
-              x: 0,
-              transition: {
-                type: "spring",
-                duration: 1,
-                bounce: 0.2,
-              },
-            }}
-            viewport={{ once: true }}
-            className={style.skillCard}
-          >
-            <h2 className={style.skillHeading}>
-              <FontAwesomeIcon icon={faServer} /> Backend
-            </h2>
-            <ul className={style.skillList}>
-              <li>Express</li>
-              <li>CORS</li>
-            </ul>
-          </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              whileInView={{
+                x: 0,
+                transition: {
+                  type: "spring",
+                  duration: 1,
+                  bounce: 0.2,
+                },
+              }}
+              viewport={{ once: true }}
+              className={style.skillCard}
+            >
+              <h2 className={style.skillHeading}>
+                <FontAwesomeIcon icon={faServer} /> Backend
+              </h2>
+              <ul className={style.skillList}>
+                <li>Express</li>
+                <li>CORS</li>
+              </ul>
+            </motion.div>
 
-          <motion.div
-            initial={{ x: -200 }}
-            whileInView={{
-              x: 0,
-              transition: {
-                type: "spring",
-                duration: 1,
-                bounce: 0.2,
-              },
-            }}
-            viewport={{ once: true }}
-            className={style.skillCard}
-          >
-            <h2 className={style.skillHeading}>
-              <FontAwesomeIcon icon={faBook} /> Libraries
-            </h2>
-            <ul className={style.skillList}>
-              <li>Framer Motion</li>
-              <li>typed.js</li>
-              <li>Font Awesome</li>
-              <li>Stripe</li>
-              <li>Tailwind CSS</li>
-              <li>Firebase</li>
-            </ul>
-          </motion.div>
+            <motion.div
+              initial={{ x: -200 }}
+              whileInView={{
+                x: 0,
+                transition: {
+                  type: "spring",
+                  duration: 1,
+                  bounce: 0.2,
+                },
+              }}
+              viewport={{ once: true }}
+              className={style.skillCard}
+            >
+              <h2 className={style.skillHeading}>
+                <FontAwesomeIcon icon={faBook} /> Libraries
+              </h2>
+              <ul className={style.skillList}>
+                <li>Framer Motion</li>
+                <li>typed.js</li>
+                <li>Font Awesome</li>
+                <li>Stripe</li>
+                <li>Tailwind CSS</li>
+                <li>Firebase</li>
+              </ul>
+            </motion.div>
 
-          <motion.div
-            initial={{ x: 200 }}
-            whileInView={{
-              x: 0,
-              transition: {
-                type: "spring",
-                duration: 1,
-                bounce: 0.2,
-              },
-            }}
-            viewport={{ once: true }}
-            className={style.skillCard}
-          >
-            <h2 className={style.skillHeading}>
-              <FontAwesomeIcon icon={faScrewdriverWrench} /> Tools
-            </h2>
-            <ul className={style.skillList}>
-              <li>Visual Studio Code</li>
-              <li>Git + GitHub</li>
-              <li>Netlify</li>
-            </ul>
-          </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              whileInView={{
+                x: 0,
+                transition: {
+                  type: "spring",
+                  duration: 1,
+                  bounce: 0.2,
+                },
+              }}
+              viewport={{ once: true }}
+              className={style.skillCard}
+            >
+              <h2 className={style.skillHeading}>
+                <FontAwesomeIcon icon={faScrewdriverWrench} /> Tools
+              </h2>
+              <ul className={style.skillList}>
+                <li>Visual Studio Code</li>
+                <li>Git + GitHub</li>
+                <li>Netlify</li>
+              </ul>
+            </motion.div>
+          </div>
         </div>
       </div>
     </div>
