@@ -39,7 +39,6 @@ const Projects = () => {
               be one of my most complex projects ever! The implementation of
               many more advanced technologies and learning how to use Stripe
               with a cart got the website to the state where it is now.
-              Unfortunately, the project has been discontinued...
             </p>
           </div>
           <div className={style.cardFlex}>

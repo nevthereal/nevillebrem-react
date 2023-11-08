@@ -18,6 +18,21 @@ const Hero = () => {
     };
   }, []);
 
+  const nevilleBrem = [
+    "N",
+    "e",
+    "v",
+    "i",
+    "l",
+    "l",
+    "e",
+    " ",
+    "B",
+    "r",
+    "e",
+    "m",
+  ];
+
   return (
     <div className='h-screen px-4 text-white wave-white'>
       <div className='mt-[-6rem] w-full h-screen mx-auto text-center flex flex-col justify-center'>
@@ -26,8 +41,17 @@ const Hero = () => {
         </p>
         <div className='relative mx-auto'>
           <div className='absolute inset-0 bg-nevBlue blur-xl rounded-full opacity-50 ease-in-out duration-200'></div>
-          <p className='text-nevBlue relative text-5xl md:text-6xl font-bold'>
-            Neville Brem
+          <p className='text-nevBlue relative text-5xl md:text-6xl font-black'>
+            {nevilleBrem.map((letter, index) => {
+              return (
+                <span
+                  className='hover:text-white duration-200 ease-in-out'
+                  key={index}
+                >
+                  {letter}
+                </span>
+              );
+            })}
           </p>
         </div>
         <p className='text-gray-400 font-bold text-lg md:text-xl'>

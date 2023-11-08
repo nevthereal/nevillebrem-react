@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='px-4 py-8 bg-white'>
       <p className='text-center font-bold'>
         Copyright{" "}
-        <a href='https://twitter.com/bremneville' className='link'>
+        <a href='https://github.com/nevthereal' className='link'>
           Neville Brem
         </a>
         . All Rights reserved
