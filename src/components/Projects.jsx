@@ -6,7 +6,7 @@ import {
   faUser,
   faNetworkWired,
 } from "@fortawesome/free-solid-svg-icons";
-import { faWolfPackBattalion } from "@fortawesome/fontawesome-free-brands";
+import { faWolfPackBattalion } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
   const style = {

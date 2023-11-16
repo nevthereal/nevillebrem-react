@@ -39,8 +39,8 @@ const Hero = () => {
         <p className='md:text-lg mx-auto font-bold uppercase text-white'>
           Hello World. my name is
         </p>
-        <div className='relative mx-auto'>
-          <div className='absolute inset-0 bg-nevBlue blur-xl rounded-full opacity-50 ease-in-out duration-200'></div>
+        <div className='relative mx-auto group'>
+          <div className='absolute inset-0 bg-nevBlue blur-xl rounded-full opacity-25 group-hover:opacity-50 ease-in-out duration-200'></div>
           <p className='text-nevBlue relative text-5xl md:text-6xl font-black'>
             {nevilleBrem.map((letter, index) => {
               return (
