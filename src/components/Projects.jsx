@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSave,
-  faUser,
   faNetworkWired,
+  faCookieBite,
 } from "@fortawesome/free-solid-svg-icons";
 import { faWolfPackBattalion } from "@fortawesome/free-brands-svg-icons";
 
@@ -35,10 +35,9 @@ const Projects = () => {
             <p className='py-2'>
               Me and a friend wanted to sell our LEGO Designs online, so I
               thought I'd code this little website. What used to be just a
-              little project where I didn't put much effort in it, turned out to
-              be one of my most complex projects ever! The implementation of
-              many more advanced technologies and learning how to use Stripe
-              with a cart got the website to the state where it is now.
+              boring static HTML page turned into my first full stack app. I
+              used Stripe for checkout with JavaScript in the backend and some
+              other cool functionalities.
             </p>
           </div>
           <div className={style.cardFlex}>
@@ -66,7 +65,7 @@ const Projects = () => {
                 Github
               </motion.button>
             </a>
-            <a href='https://willsbrix.com' target='blank'>
+            <a href='https://wolffebricks.store' target='blank'>
               <motion.button
                 initial={{ y: 100, opacity: 50 }}
                 whileInView={{
@@ -154,16 +153,18 @@ const Projects = () => {
         <div className={style.projectCard}>
           <div>
             <div className={style.projectFlex}>
-              <h3 className={style.projectHeading}>Files App</h3>
+              <h3 className={style.projectHeading}>BarMates</h3>
               <h3>
                 <i className='fa-solid fa-user'></i>
-                <FontAwesomeIcon icon={faUser} />
+                <FontAwesomeIcon icon={faCookieBite} />
               </h3>
             </div>
             <p className='py-2'>
-              A little project where I want to upload summaries I write of my
-              class. I am currently rebuilding it with Firebase, so expect a
-              reboot soon!
+              A landing page for a start-up. I really experimented with
+              Framer-Motion and their animations and transitions. I also used
+              ConvertKit's API for a newsletter form. It is also my first larger
+              scale TypeScript project. I plan to convert it to Next once I
+              learn it and integrate an e-commerce functionality.
             </p>
           </div>
           <div className={style.cardFlex}>
