@@ -68,7 +68,7 @@ const Hero = () => {
           }}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className='rounded-3xl font-bold bg-nevBlue mx-auto py-2 px-4 my-4 md:text-lg shadow-nevBlue/30 shadow-lg hover:animate-pulse'
+          className='rounded-3xl font-bold bg-nevBlue mx-auto py-2 px-4 my-4 md:text-lg shadow-nevBlue/50 hover:shadow-nevBlue/75 shadow-lg'
         >
           <a href='#about'>Dive in!</a>
         </motion.button>

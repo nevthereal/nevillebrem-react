@@ -11,7 +11,7 @@ import { faWolfPackBattalion } from "@fortawesome/free-brands-svg-icons";
 const Projects = () => {
   const style = {
     projectHeading: `font-bold font-[Montserrat]`,
-    projectButton: `mx-auto rounded-3xl font-bold bg-nevBlue shadow-nevBlue/30 shadow-lg md:py-4 py-2 md:px-6 px-3 text-xl`,
+    projectButton: `mx-auto rounded-3xl font-bold bg-nevBlue shadow-nevBlue/50 hover:shadow-nevBlue/75 shadow-lg md:py-4 py-2 md:px-6 px-3 text-xl`,
     projectCard: `prj-card card group mx-auto`,
     projectFlex: `flex justify-between`,
     cardFlex: `flex justify-center gap-4 my-2`,
