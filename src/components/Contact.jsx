@@ -68,7 +68,7 @@ const Form = () => {
   const [loading, setLoading] = useState(false);
   const formSchema = z.object({
     name: z.string().min(3, "That's really your name?"),
-    email: z.string().email(),
+    email: z.string().email("Put in a real email..."),
     message: z.string().min(3, "Your message is too short..."),
   });
 
@@ -114,10 +114,10 @@ const Form = () => {
     <div className='flex mt-4'>
       <div className='mx-auto card p-4 md:w-[75%] w-[90%]'>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <h2 className='font-black'>
+          <h2 className='font-black group'>
             <FontAwesomeIcon
               icon={faHand}
-              className='rotate-12 hover:rotate-[60deg] ease-in-out duration-200'
+              className='rotate-12 group-hover:rotate-[60deg] ease-in-out duration-200'
             />{" "}
             Get in touch!
           </h2>
