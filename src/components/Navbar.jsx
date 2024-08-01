@@ -36,11 +36,6 @@ const Navbar = () => {
             Social
           </a>
         </li>
-        <li>
-          <a href='#contact' className='nav-link'>
-            Contact
-          </a>
-        </li>
       </ul>
       <div
         onClick={handleNav}
@@ -74,9 +69,6 @@ const Navbar = () => {
           </li>
           <li className='p-4 border-b border-gray-600'>
             <a href='#social'>Social</a>
-          </li>
-          <li className='p-4'>
-            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </div>
