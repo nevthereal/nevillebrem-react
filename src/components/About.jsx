@@ -11,8 +11,8 @@ const About = () => {
             <FontAwesomeIcon icon={faInfoCircle} bounce /> About
           </h1>
           <p>
-            I am a Web Developer, Video Editor and Motion designer based in
-            Zurich, Switzerland.
+            I am a Swiss Web Developer, Video Editor and Motion designer who
+            went to a mathematical and scientific high school.
           </p>
           <p className='mt-2'>
             I love digital content creation. I am also interested in the latest
